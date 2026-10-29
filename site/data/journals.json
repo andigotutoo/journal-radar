@@ -122,7 +122,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0005",
@@ -146,7 +147,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0006",
@@ -170,7 +172,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0007",
@@ -194,7 +197,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0008",
@@ -218,7 +222,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0009",
@@ -229,20 +234,28 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001500",
+    "home_url": "http://www.kacsn.net",
     "submit_url": "",
     "site_url": "",
     "frequency": "연4회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "03-25",
+      "06-25",
+      "09-25",
+      "12-25"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "1999",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "001500",
+    "publication_schedule_source": "https://kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001500",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0010",
@@ -266,7 +279,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0011",
@@ -290,7 +304,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0012",
@@ -314,7 +329,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0013",
@@ -338,7 +354,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0014",
@@ -362,7 +379,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0015",
@@ -386,7 +404,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0016",
@@ -410,7 +429,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0017",
@@ -434,7 +454,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0018",
@@ -518,7 +539,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0021",
@@ -542,7 +564,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0022",
@@ -566,7 +589,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0023",
@@ -590,7 +614,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0024",
@@ -614,7 +639,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0025",
@@ -638,7 +664,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0026",
@@ -662,7 +689,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0027",
@@ -673,20 +701,28 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001585",
+    "home_url": "http://sei.knu.ac.kr",
     "submit_url": "",
     "site_url": "",
     "frequency": "연4회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "03-30",
+      "06-30",
+      "09-30",
+      "12-30"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "196312",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "001585",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001585",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0028",
@@ -710,7 +746,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0029",
@@ -734,7 +771,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0030",
@@ -745,20 +783,31 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000311",
+    "home_url": "https://www.koreascience.org/",
     "submit_url": "",
     "site_url": "",
     "frequency": "연6회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "02-28",
+      "06-30",
+      "08-31",
+      "10-30",
+      "12-31"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "1978",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "000311",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalArticleList.kci?sere_id=000311&vol_isse_id=VOL000191587",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)",
+    "publication_schedule_raw_warning": "KCI 원문에 04월 31일 기재: 유효하지 않은 날짜여서 누락했으며 정확한 4월 발행일 확인 필요",
+    "publication_schedule_incomplete": true
   },
   {
     "id": "kci-0031",
@@ -800,20 +849,26 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001836",
+    "home_url": "http://www.eduhistory.or.kr",
     "submit_url": "",
     "site_url": "",
     "frequency": "연2회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "04-30",
+      "10-31"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "1987",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "001836",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalArticleList.kci?sere_id=001836&vol_isse_id=VOL000170721",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0033",
@@ -837,7 +892,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0034",
@@ -861,7 +917,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0035",
@@ -885,7 +942,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0036",
@@ -909,7 +967,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0037",
@@ -933,7 +992,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0038",
@@ -957,7 +1017,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0039",
@@ -1047,7 +1108,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0042",
@@ -1058,20 +1120,28 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=002103",
+    "home_url": "https://www.koreahrd.or.kr",
     "submit_url": "",
     "site_url": "",
     "frequency": "연4회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "02-28",
+      "05-31",
+      "08-31",
+      "11-30"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "1999",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "002103",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=002103",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0043",
@@ -1095,7 +1165,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0044",
@@ -1119,7 +1190,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0045",
@@ -1143,7 +1215,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0046",
@@ -1167,7 +1240,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0047",
@@ -1191,7 +1265,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0048",
@@ -1215,7 +1290,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0049",
@@ -1239,7 +1315,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0050",
@@ -1263,7 +1340,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0051",
@@ -1274,20 +1352,28 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000014943",
+    "home_url": "http://eeri.snue.ac.kr",
     "submit_url": "",
     "site_url": "",
     "frequency": "연4회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "198812",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "SER000014943",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000014943",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0052",
@@ -1311,7 +1397,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0053",
@@ -1335,7 +1422,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0054",
@@ -1359,7 +1447,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0055",
@@ -1383,7 +1472,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0056",
@@ -1407,7 +1497,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0057",
@@ -1431,7 +1522,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0058",
@@ -1455,7 +1547,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0059",
@@ -1479,7 +1572,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0060",
@@ -1503,7 +1597,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0061",
@@ -1533,9 +1628,10 @@
     "link_verification_date": "2026-10-30",
     "deadline_rule_status": "2026년 공지의 연간 발행계획, 2027 공고 미확인",
     "kci_detail_status": "unverified",
-    "publication_schedule_status": "previous_data_unverified",
+    "publication_schedule_status": "needs_source_confirmation",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0062",
@@ -1559,7 +1655,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0063",
@@ -1614,7 +1711,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0065",
@@ -1638,7 +1736,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0066",
@@ -1662,7 +1761,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0067",
@@ -1686,7 +1786,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0068",
@@ -1710,7 +1811,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0069",
@@ -1721,20 +1823,28 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000781",
+    "home_url": "http://www.lifelongedukorea.or.kr",
     "submit_url": "",
     "site_url": "",
     "frequency": "연4회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "03-30",
+      "06-30",
+      "09-30",
+      "12-30"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "1995",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "000781",
+    "publication_schedule_source": "https://kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000781",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0070",
@@ -1758,7 +1868,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0071",
@@ -1782,7 +1893,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0072",
@@ -1806,7 +1918,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0073",
@@ -1830,7 +1943,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0074",
@@ -1856,7 +1970,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0075",
@@ -1880,7 +1995,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0076",
@@ -1904,7 +2020,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0077",
@@ -1928,7 +2045,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0078",
@@ -1952,7 +2070,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0079",
@@ -1963,20 +2082,28 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearList.kci",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000867",
+    "home_url": "http://www.ksste.or.kr",
     "submit_url": "",
     "site_url": "",
     "frequency": "연4회",
-    "publication_schedule": [],
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
     "monitoring": "unconfigured",
     "fit": "",
     "language": "한국어",
     "first_publication": "1984",
-    "kci_detail_status": "unverified",
-    "publication_schedule_status": "not_verified",
+    "kci_detail_status": "verified",
+    "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_sere_id": "000867",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalArticleList.kci?sere_id=000867&vol_isse_id=VOL000191297",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
     "id": "kci-0080",
@@ -2000,7 +2127,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0081",
@@ -2024,7 +2152,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0082",
@@ -2048,7 +2177,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0083",
@@ -2072,7 +2202,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0084",
@@ -2096,7 +2227,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0085",
@@ -2120,7 +2252,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0086",
@@ -2144,7 +2277,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0087",
@@ -2171,7 +2305,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0088",
@@ -2195,7 +2330,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0089",
@@ -2219,7 +2355,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0090",
@@ -2243,7 +2380,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0091",
@@ -2267,7 +2405,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0092",
@@ -2291,7 +2430,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0093",
@@ -2315,7 +2455,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0094",
@@ -2339,7 +2480,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0095",
@@ -2363,7 +2505,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0096",
@@ -2421,7 +2564,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0098",
@@ -2445,7 +2589,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0099",
@@ -2469,7 +2614,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0100",
@@ -2493,7 +2639,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0101",
@@ -2517,7 +2664,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0102",
@@ -2541,7 +2689,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0103",
@@ -2565,7 +2714,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0104",
@@ -2589,7 +2739,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0105",
@@ -2613,7 +2764,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0106",
@@ -2637,7 +2789,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0107",
@@ -2661,7 +2814,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0108",
@@ -2685,7 +2839,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0109",
@@ -2709,7 +2864,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0110",
@@ -2733,7 +2889,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0111",
@@ -2757,7 +2914,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0112",
@@ -2781,7 +2939,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0113",
@@ -2805,7 +2964,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0114",
@@ -2829,7 +2989,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0115",
@@ -2853,7 +3014,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0116",
@@ -2877,7 +3039,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0117",
@@ -2901,7 +3064,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0118",
@@ -2925,7 +3089,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0119",
@@ -2949,7 +3114,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0120",
@@ -2973,7 +3139,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0121",
@@ -2997,7 +3164,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0122",
@@ -3021,7 +3189,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0123",
@@ -3045,7 +3214,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0124",
@@ -3069,7 +3239,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0125",
@@ -3093,7 +3264,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0126",
@@ -3117,7 +3289,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0127",
@@ -3141,7 +3314,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0128",
@@ -3165,7 +3339,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0129",
@@ -3189,7 +3364,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0130",
@@ -3213,7 +3389,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0131",
@@ -3237,7 +3414,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0132",
@@ -3261,7 +3439,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0133",
@@ -3285,7 +3464,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0134",
@@ -3309,7 +3489,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0135",
@@ -3333,7 +3514,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0136",
@@ -3357,7 +3539,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0137",
@@ -3381,7 +3564,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0138",
@@ -3405,7 +3589,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0139",
@@ -3429,7 +3614,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0140",
@@ -3453,7 +3639,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0141",
@@ -3477,7 +3664,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0142",
@@ -3501,7 +3689,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0143",
@@ -3525,7 +3714,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0144",
@@ -3549,7 +3739,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0145",
@@ -3573,7 +3764,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0146",
@@ -3597,7 +3789,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0147",
@@ -3621,7 +3814,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0148",
@@ -3645,7 +3839,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0149",
@@ -3669,7 +3864,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0150",
@@ -3693,7 +3889,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0151",
@@ -3717,7 +3914,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0152",
@@ -3741,7 +3939,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0153",
@@ -3765,7 +3964,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0154",
@@ -3789,7 +3989,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0155",
@@ -3813,7 +4014,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0156",
@@ -3837,7 +4039,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0157",
@@ -3861,7 +4064,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0158",
@@ -3885,7 +4089,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0159",
@@ -3909,7 +4114,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0160",
@@ -3933,7 +4139,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0161",
@@ -3996,7 +4203,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0163",
@@ -4020,7 +4228,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0164",
@@ -4044,7 +4253,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0165",
@@ -4068,7 +4278,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0166",
@@ -4092,7 +4303,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0167",
@@ -4116,7 +4328,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0168",
@@ -4140,7 +4353,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0169",
@@ -4164,7 +4378,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0170",
@@ -4188,7 +4403,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0171",
@@ -4212,7 +4428,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0172",
@@ -4236,7 +4453,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0173",
@@ -4260,7 +4478,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0174",
@@ -4284,7 +4503,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0175",
@@ -4308,7 +4528,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0176",
@@ -4332,7 +4553,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0177",
@@ -4356,7 +4578,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0178",
@@ -4380,7 +4603,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0179",
@@ -4404,7 +4628,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0180",
@@ -4428,7 +4653,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0181",
@@ -4452,7 +4678,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0182",
@@ -4476,7 +4703,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0183",
@@ -4500,7 +4728,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0184",
@@ -4524,7 +4753,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0185",
@@ -4548,7 +4778,8 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   },
   {
     "id": "kci-0186",
@@ -4572,6 +4803,7 @@
     "kci_detail_status": "unverified",
     "publication_schedule_status": "not_verified",
     "submission_deadline_rules": [],
-    "submission_deadline_status": "unknown"
+    "submission_deadline_status": "unknown",
+    "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci"
   }
 ]

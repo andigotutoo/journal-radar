@@ -1,1 +1,16 @@
-{"last_checked":null,"sources":[{"name":"한국교육공학회 공지사항","status":"not_run","message":"GitHub Actions가 실행되면 갱신됩니다."},{"name":"한국교육정보미디어학회 JAMS","status":"not_run","message":"GitHub Actions가 실행되면 갱신됩니다."}],"coverage_note":"초기 버전에는 우선순위 3개 학술지만 등록되어 있습니다. 교육학 전체 학술지 목록은 KCI 자료를 가져와 확장합니다."}
+{
+  "last_checked": "2026-10-29T17:54:05+00:00",
+  "sources": [
+    {
+      "name": "한국교육공학회 공지사항",
+      "status": "ok",
+      "message": "모집 공고 4건 탐지"
+    },
+    {
+      "name": "한국교육정보미디어학회 JAMS",
+      "status": "ok",
+      "message": "모집 공고 5건 탐지"
+    }
+  ],
+  "coverage_note": "우선 3개 학술지 감시. 교육학 전체 목록은 별도 KCI 내보내기 파일을 가져와 확장합니다."
+}

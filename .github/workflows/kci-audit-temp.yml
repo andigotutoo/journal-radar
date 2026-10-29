@@ -1,0 +1,36 @@
+name: Research KCI journal data (temporary)
+on:
+  push:
+    branches:
+      - research/kci-186-audit-20261030
+    paths:
+      - .github/workflows/kci-audit-temp.yml
+      - scripts/kci_audit.py
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe KCI access
+        run: |
+          python - <<'PY'
+          import urllib.request
+          for url in ['https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000394','https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=000394']:
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=20) as r:
+                html=r.read().decode('utf-8','replace')
+                print(r.status,len(html),'발행간기' in html,html.find('발행간기'),r.url)
+            except Exception as e: print(type(e).__name__,str(e))
+          PY
+      - name: Save probe result
+        run: |
+          date -u > kci_audit_probe_done.txt
+          git config user.name "kci-audit-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kci_audit_probe_done.txt
+          git commit -m "test: KCI network probe" || true
+          git push

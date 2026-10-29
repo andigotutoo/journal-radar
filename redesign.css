@@ -1,0 +1,54 @@
+
+/* Paper Radar v2 — editorial research dashboard */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+:root{font-family:'Manrope','Noto Sans KR',sans-serif;background:#f8f9fb;color:#182439;font-size:14px}
+body{background:#f8f9fb}
+.app-shell{max-width:1280px;padding:0 48px}
+.topbar{height:76px;border-bottom:1px solid #e7ebef}
+.brand{font-size:23px;color:#17243b;gap:10px;letter-spacing:-1.2px}
+.brand-mark{width:34px;height:34px;background:#194d7d;border-radius:10px;color:white;font-size:19px}
+.brand-light{color:#397caf}
+.brand small{font-size:10px;letter-spacing:.03em;margin-top:5px;color:#98a4b2}
+.top-actions{gap:24px;font-weight:700}
+.top-link{color:#69778a}.top-link:hover{color:#225a8e}
+.public-mark{font-size:10px;padding:7px 12px;background:#edf5f8;border:1px solid #dae7f0;color:#346c91}
+.live-dot{background:#3b9b93}
+.hero{grid-template-columns:minmax(0,1fr) 330px;gap:34px;padding:54px 0 32px;align-items:stretch}
+.hero-copy{padding:12px 0}
+.eyebrow{color:#3b79ae;font-size:10px;letter-spacing:1.85px}
+.hero h1{font-weight:800;font-size:clamp(38px,4.7vw,61px);letter-spacing:-3.9px;line-height:1.2;margin:18px 0 16px}
+.hero h1 em{color:#3278b8}
+.hero-copy p{font-size:14px;line-height:1.85;color:#7b899a}
+.hero-pills{margin-top:25px;gap:10px}
+.hero-pills a{background:#194b79;border-radius:9px;color:white;padding:11px 16px;font-size:12px;font-weight:800}
+.hero-pills a+a{background:#fff;color:#2e648d;border:1px solid #dce5ed}
+.hero-pills a:hover{filter:brightness(.95)}
+.deadline-card{min-height:unset;border-radius:16px;padding:26px 28px;background:#183f69;box-shadow:none}
+.deadline-card:after{content:'◌';font-size:200px;right:-35px;bottom:-65px;opacity:.065}
+.deadline-card .eyebrow{color:#a2d9ef}
+.goal-date{margin-top:17px;font-size:19px;letter-spacing:-.7px}.goal-date strong{font-size:43px}
+.goal-label{font-size:11px}.days{margin-top:18px}.days strong{font-size:31px}.deadline-card p{margin-top:11px;line-height:1.7}
+.metrics{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.metric{border-radius:12px;min-height:110px;padding:19px 19px;border:1px solid #e9edf1;box-shadow:none}
+.metric>span{font-size:11px}.metric strong{font-size:29px;margin:5px 0}.metric .smaller{font-size:13px;margin:13px 0 9px}
+.section{margin-top:48px}.section-heading{margin-bottom:17px}.section-heading h2{font-size:22px;letter-spacing:-1.15px;margin:7px 0}
+.section-heading p{font-size:12px;line-height:1.7}.section-link{color:#3378ac}
+.priority-grid{gap:13px}
+.journal-card{border-radius:13px;border:1px solid #e5eaf0;min-height:234px;box-shadow:none;padding:21px 21px 19px;transition:transform .18s,border-color .18s}
+.journal-card:hover{transform:translateY(-3px);border-color:#bad0e2}
+.journal-card:first-child{background:#fff;border-color:#a3c8e3}
+.rank{color:#397ba7;letter-spacing:.08em;font-size:10px}
+.mini-badge{background:#f3f6fa;border-color:#e8edf2;border-radius:20px}
+.journal-card h3{font-size:18px;margin:18px 0 7px}.journal-card h3.english{font-size:16px}
+.jc-meta span{font-size:10px;background:#eff5fa;color:#56758e}
+.jc-footer .if strong{color:#174b76}.jc-footer a,.small-links a,.ranking-links a,.rank-links a{color:#236eaa}
+.table-panel{border-radius:12px;box-shadow:none;border-color:#e5eaf0}
+.filterbar,.directory-tools,.ranking-toolbar{background:#fcfdff}
+.search{border-radius:9px;background:#fff}.directory-tools select{border-radius:9px}
+.chip.active{background:#1b4e79}.chip{font-size:11px;border-radius:7px}
+.tag.open{color:#166a56;background:#e8f6ef}
+.notice-row:hover,.journal-row:hover,.ranking-row:hover{background:#f9fbfd}
+.help-card{background:#edf3f9}.help-card:nth-child(2){background:#edf5f4}
+footer{margin-top:56px}
+@media(max-width:950px){.app-shell{padding:0 26px}.hero{grid-template-columns:1fr 300px;gap:18px}.top-actions{gap:12px}.priority-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.journal-card{padding:16px}.hero h1{font-size:43px}}
+@media(max-width:720px){.app-shell{padding:0 16px}.topbar{height:70px}.top-actions .top-link{display:none}.hero{grid-template-columns:1fr;gap:16px;padding:32px 0 20px}.hero h1{font-size:41px;letter-spacing:-2.5px}.deadline-card{padding:20px 22px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.metric{min-height:98px;padding:15px}.priority-grid{grid-template-columns:1fr}.journal-card{min-height:205px}.section{margin-top:37px}.section-heading h2{font-size:21px}.bottom-row{grid-template-columns:1fr}.goal-date strong{font-size:38px}.ranking-toolbar{flex-direction:column;align-items:flex-start}}

@@ -42,5 +42,32 @@ function renderJournals(){const wrap=el('journal-list');wrap.replaceChildren();l
  arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · ${j.frequency||'발행주기 미확인'} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');urls.append(link(j.kci_url,'KCI ↗'),link(j.home_url||j.site_url,'홈페이지 ↗'),link(j.submit_url||j.site_url,'투고 ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
 function renderSources(){const dest=el('source-status');dest.replaceChildren();(state.scan.sources||[]).forEach(s=>{const r=make('div','source-line');r.append(make('strong',s.status==='ok'?'✓':s.status==='error'?'!':'○'));r.firstChild.className=s.status==='ok'?'ok':s.status==='error'?'error':'neutral';r.append(make('span','',s.name+' · '+(s.status==='ok'?'점검 성공':s.status==='error'?'점검 실패':s.message||'점검 전')));dest.append(r);});}
 async function loadJSON(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
-async function boot(){goal();try{const [journals,notices,scan,ranking]=await Promise.all(['data/journals.json','data/notices.json','data/scan.json','data/ranking.json'].map(loadJSON));state.journals=journals;state.notices=notices;state.scan=scan;state.ranking=ranking;setMetrics();renderPriority();renderRanking();renderNotices();renderJournals();renderSources();}catch(err){el('ranking-list').append(make('div','empty','집계 자료를 불러올 수 없습니다.'));el('priority-grid').append(make('div','empty','데이터를 불러올 수 없습니다. 로컬 파일을 직접 열었다면 웹서버로 실행해 주세요.'));el('notice-list').append(make('div','empty',err.message));}}
-document.querySelectorAll('[data-notice-filter]').forEach(btn=>btn.addEventListener('click',()=>{state.noticeFilter=btn.dataset.noticeFilter;document.querySelectorAll('[data-notice-filter]').forEach(b=>b.classList.toggle('active',b===btn));renderNotices();}));el('query').addEventListener('input',e=>{state.query=e.target.value;renderJournals();});el('sort').addEventListener('change',e=>{state.sort=e.target.value;renderJournals();});el('only-priority').addEventListener('change',e=>{state.onlyPriority=e.target.checked;renderJournals();});boot();
+async function boot(){goal();try{
+  const [journals, notices, scan, ranking] = await Promise.all([
+    './site/data/journals.json',
+    './site/data/notices.json',
+    './site/data/scan.json',
+    './site/data/ranking.json'
+  ].map(loadJSON));
+    state.journals = journals;
+    state.notices = notices;
+    state.scan = scan;
+    state.ranking = ranking;
+
+    renderPriority();
+    renderRanking();
+    renderNotices();
+    renderJournals();
+    renderSources();
+
+  } catch (error) {
+    console.error('데이터 로딩 오류:', error);
+    document.querySelectorAll(
+      '#priority-grid, #journal-list, #notice-list, #ranking-list'
+    ).forEach(el => {
+      el.textContent = '데이터를 불러오지 못했습니다.';
+    });
+  }
+}
+
+boot();

@@ -49,3 +49,25 @@ async function boot(){goal();try{
     './site/data/scan.json',
     './site/data/ranking.json'
   ].map(loadJSON));
+    state.journals = journals;
+    state.notices = notices;
+    state.scan = scan;
+    state.ranking = ranking;
+
+    renderPriority();
+    renderRanking();
+    renderNotices();
+    renderJournals();
+    renderSources();
+
+  } catch (error) {
+    console.error('데이터 로딩 오류:', error);
+    document.querySelectorAll(
+      '#priority-grid, #journal-list, #notice-list, #ranking-list'
+    ).forEach(el => {
+      el.textContent = '데이터를 불러오지 못했습니다.';
+    });
+  }
+}
+
+boot();

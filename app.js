@@ -26,7 +26,7 @@ function renderRanking(){
   if(!journal)return;
   const line=make('article','merged-ranking-row');
   line.append(make('div','rank-no',String(i+1).padStart(2,'0')));
-  const details=make('div','rank-details');details.append(make('strong','',journal.name),make('p','',journal.publisher||''));
+  const details=make('div','rank-details');details.append(make('strong','',journal.name),make('p','',journal.publisher||''));details.append(make('small','',`KCI 발행 간기: ${journal.frequency||'확인 전'} · 발행일은 별도 확인`));
   const profs=Object.entries(item.by_professor||{}).filter(([,n])=>n>0).map(([k,n])=>`${k} ${n}`).join(' · ');
   if(profs)details.append(make('small','',profs));line.append(details);
   line.append(make('div','rank-score',String(item.score)+'편'));
@@ -41,6 +41,7 @@ function renderRanking(){
   const links=make('div','merge-links');
   if(notice&&notice.url)links.append(link(notice.url,'공고 ↗'));
   journalLinks(journal).forEach(a=>links.append(a));
+  if(journal.kci_url){const detail=/[?&]sereId=/.test(journal.kci_url);links.append(link(journal.kci_url,detail?'KCI 상세정보 ↗':'KCI 학술지 검색 ↗'));}
   line.append(links);wrap.append(line);
  });
  const expand=el('expand-rankings');expand.hidden=ranked.length<=10;

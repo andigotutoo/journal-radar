@@ -1,0 +1,13 @@
+{
+  "mode": "unavailable",
+  "complete": false,
+  "year_from": null,
+  "year_to": null,
+  "faculty": ["소효정", "이정민", "임규연", "이재영", "정재삼", "조일현"],
+  "verified_journals": 0,
+  "verified_articles": 0,
+  "unverified_name_rows": 0,
+  "ranked": [],
+  "updated_at": null,
+  "note": "KCI 논문별 저자-소속 자료를 확인한 뒤 실제 게재 실적으로 순위를 계산합니다. 아직 상위 50개 순위는 확정되지 않았습니다."
+}

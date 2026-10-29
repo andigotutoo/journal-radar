@@ -1,0 +1,74 @@
+[
+  {
+    "id": "jet",
+    "name": "교육공학연구",
+    "name_en": "Journal of Educational Technology",
+    "publisher": "한국교육공학회",
+    "priority": 1,
+    "kci": "등재",
+    "kci_if": 5.35,
+    "if_year": 2025,
+    "kci_url": "https://kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=000394",
+    "site_url": "https://www.kset.or.kr/index.php?bo_idx=9&hCode=BOARD",
+    "frequency": "연 4회",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "monitoring": "auto",
+    "fit": "교수설계·AI 개발·효과 분석",
+    "language": "한국어",
+    "home_url": "https://kset.jams.or.kr/",
+    "submit_url": "https://kset.jams.or.kr/"
+  },
+  {
+    "id": "kaeim",
+    "name": "교육정보미디어연구",
+    "name_en": "Journal of Korean Association for Educational Information and Media",
+    "publisher": "한국교육정보미디어학회",
+    "priority": 2,
+    "kci": "등재",
+    "kci_if": 4.31,
+    "if_year": 2025,
+    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=000750",
+    "site_url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci",
+    "frequency": "연 6회",
+    "publication_schedule": [
+      "02-28",
+      "04-30",
+      "06-30",
+      "08-30",
+      "10-30",
+      "12-30"
+    ],
+    "monitoring": "pilot",
+    "fit": "디지털 교수학습·AI 상호작용",
+    "language": "한국어",
+    "home_url": "https://kaeim.jams.or.kr/",
+    "submit_url": "https://kaeim.jams.or.kr/"
+  },
+  {
+    "id": "eti",
+    "name": "Educational Technology International",
+    "name_en": "Educational Technology International",
+    "publisher": "한국교육공학회",
+    "priority": 3,
+    "kci": "등재",
+    "kci_if": 0.16,
+    "if_year": 2025,
+    "kci_url": "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=SER000009272",
+    "site_url": "https://www.kset.or.kr/index.php?bo_idx=9&hCode=BOARD",
+    "frequency": "연 2회",
+    "publication_schedule": [
+      "04-30",
+      "10-31"
+    ],
+    "monitoring": "auto",
+    "fit": "영문·AI 성찰학습·학습경험",
+    "language": "English",
+    "home_url": "https://www.kset.or.kr/index.php?hCode=JOURNAL_02_07",
+    "submit_url": "https://www.kset.or.kr/index.php?hCode=JOURNAL_02_07"
+  }
+]

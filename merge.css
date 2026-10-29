@@ -1,0 +1,19 @@
+/* Paper Radar: 게재 실적 + 투고 일정 통합 */
+.merged-table-head,.merged-ranking-row{display:grid;grid-template-columns:50px minmax(230px,1.6fr) 76px 130px 130px minmax(130px,1fr);gap:14px;align-items:center}
+.merged-table-head{padding:12px 21px;background:#f3f6fb;color:#667990;font-size:11px;font-weight:700;border-bottom:1px solid #e3eaf2}
+.merged-ranking-row{padding:17px 21px;border-bottom:1px solid #eaf0f5;background:#fff}
+.merged-ranking-row:hover{background:#f7faff}.merged-ranking-row:last-child{border-bottom:0}
+.merged-ranking-row .rank-details{min-width:0}.merged-ranking-row .rank-details strong{line-height:1.45;display:block}
+.merged-ranking-row .rank-details small{display:block;margin-top:6px;line-height:1.55}
+.merge-date{display:flex;flex-direction:column;gap:5px;line-height:1.5}
+.merge-date strong{font-size:12px;color:#1c334d;font-weight:750;white-space:nowrap}
+.merge-date small{font-size:10px;color:#7c889b}
+.merge-unknown{font-size:11px;color:#9aa4b2}
+.merge-links{display:flex;flex-wrap:wrap;gap:5px 11px;justify-content:flex-start}
+.merge-links a{font-size:11px;font-weight:750;color:#286faf;white-space:nowrap}
+.merge-links a:hover{text-decoration:underline}
+.merge-table-footer{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:13px 21px;background:#fcfdff}
+.merge-table-footer span{font-size:11px;color:#8795a8;line-height:1.55}
+#expand-rankings[hidden]{display:none}
+@media(max-width:1050px){.merged-table-head,.merged-ranking-row{grid-template-columns:34px minmax(180px,1.3fr) 62px 100px 100px 130px;gap:8px}.merged-ranking-row{padding:14px 12px}.merged-table-head{padding:11px 12px}.merge-date strong{font-size:11px}}
+@media(max-width:740px){.merged-table-head{display:none}.merged-ranking-row{grid-template-columns:32px minmax(0,1fr) 55px;gap:9px}.merged-ranking-row>.merge-date:nth-of-type(1){grid-column:2}.merged-ranking-row>.merge-date{grid-column:auto}.merged-ranking-row .merge-links{grid-column:2/-1}.merged-ranking-row .rank-details strong{font-size:13px}.merge-table-footer{align-items:flex-start;flex-direction:column}}

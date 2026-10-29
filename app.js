@@ -1,4 +1,4 @@
-const state={journals:[],notices:[],scan:{},noticeFilter:'all',showAllNotices:false,query:'',sort:'ranking',onlyPriority:false,ranking:{mode:'unavailable',complete:false,ranked:[]}};
+const state={journals:[],notices:[],scan:{},noticeFilter:'all',showAllNotices:false,showAllRankings:false,query:'',sort:'ranking',onlyPriority:false,ranking:{mode:'unavailable',complete:false,ranked:[]}};
 const el=id=>document.getElementById(id);
 const dateOnly=(s)=>s?new Date(`${s}T00:00:00+09:00`):null;
 const pretty=(s)=>s?(s.replace(/-/g,'.')):'공고 원문 확인';
@@ -12,27 +12,39 @@ function renderRanking(){
  const wrap=el('ranking-list');wrap.replaceChildren();
  const r=state.ranking;
  const mode=r.mode==='department'?'이화여대 교육공학과 소속 저자':r.mode==='faculty'?'지정 교수 6명':'저자-소속 자료 미확보';
- el('ranking-status').textContent=(r.complete?'검증 집계':'미완성 · 예비 집계')+' · '+mode+' · '+(r.verified_articles||0)+'편 확인';
- if(!(r.ranked||[]).length){
-   const empty=make('div','empty');empty.append(make('strong','','게재 실적 TOP 50은 아직 산출 전입니다.'));
-   empty.append(make('p','', 'KCI에서 저자별 소속이 연결된 논문 목록을 확보한 다음 실제 게재 건수로 순위를 산정합니다. 교수 이름만으로 임의 순위를 만들지 않습니다.'));
-   wrap.append(empty);return;
+ el('ranking-status').textContent=(r.complete?'검증 집계':'예비 집계')+' · '+mode+' · '+(r.verified_articles||0)+'편 확인';
+ const ranked=r.ranked||[];
+ if(!ranked.length){
+   wrap.append(make('div','empty','아직 교수별 게재 실적 자료가 없습니다. 순위를 등록하면 투고 일정과 함께 표시됩니다.'));
+   el('expand-rankings').hidden=true;return;
  }
- (r.ranked||[]).forEach((item,i)=>{
+ const noticeByJournal=new Map(visibleNotices().map(n=>[n.journal_id,n]));
+ const limit=state.showAllRankings?ranked.length:Math.min(10,ranked.length);
+ ranked.slice(0,limit).forEach((item,i)=>{
   const journal=state.journals.find(j=>j.id===item.journal_id);
   if(!journal)return;
-  const line=make('article','ranking-row');
-  const rank=make('div','rank-no',String(i+1).padStart(2,'0'));
-  const details=make('div','rank-details');
-  details.append(make('strong','',journal.name),make('p','',journal.publisher||''));
-  const breakdown=Object.entries(item.by_professor||{}).filter(([,n])=>n>0).map(([k,n])=>`${k} ${n}`).join(' · ');
-  if(breakdown)details.append(make('small','',breakdown));
-  const qty=make('div','rank-score',String(item.score)+'편');
-  const links=make('div','rank-links');
-  links.append(link(journal.home_url||journal.site_url,'학술지 홈페이지 ↗'),link(journal.submit_url||journal.site_url,'투고 안내 ↗'));
-  line.append(rank,details,qty,links);wrap.append(line);
+  const line=make('article','merged-ranking-row');
+  line.append(make('div','rank-no',String(i+1).padStart(2,'0')));
+  const details=make('div','rank-details');details.append(make('strong','',journal.name),make('p','',journal.publisher||''));
+  const profs=Object.entries(item.by_professor||{}).filter(([,n])=>n>0).map(([k,n])=>`${k} ${n}`).join(' · ');
+  if(profs)details.append(make('small','',profs));line.append(details);
+  line.append(make('div','rank-score',String(item.score)+'편'));
+  const notice=noticeByJournal.get(journal.id);
+  const due=make('div','merge-date');
+  const pub=make('div','merge-date');
+  if(notice){
+   due.append(make('strong','',pretty(notice.deadline)),make('small',notice.displayYear==='2027'?'2027년 공고':'2026년 참고'));
+   pub.append(make('strong','',notice.publication_date?pretty(notice.publication_date):'미확인'));
+  }else{due.append(make('span','merge-unknown','공고 미확인'));pub.append(make('span','merge-unknown','미확인'));}
+  line.append(due,pub);
+  const links=make('div','merge-links');
+  if(notice&&notice.url)links.append(link(notice.url,'공고 ↗'));
+  links.append(link(journal.submit_url||journal.site_url,'투고 ↗'),link(journal.home_url||journal.site_url,'홈페이지 ↗'));
+  line.append(links);wrap.append(line);
  });
- if(!r.complete){wrap.prepend(make('div','ranking-warning','주의: 현재는 일부 자료로 집계한 예비 순위입니다. KCI 전체 범위 검증 전에는 최종 상위 50선으로 해석하지 마세요.'));}
+ const expand=el('expand-rankings');expand.hidden=ranked.length<=10;
+ expand.textContent=state.showAllRankings?'접기':`전체 ${ranked.length}종 보기`;
+ if(!r.complete&&!state.showAllRankings)wrap.prepend(make('div','ranking-warning','자료 일부를 기반으로 집계한 예비 순위입니다. 전체 KCI 게재 실적의 최종 순위가 아닙니다.'));
 }
 function renderPriority(){const wrap=el('priority-grid');wrap.replaceChildren();state.journals.filter(j=>j.priority>0).sort((a,b)=>a.priority-b.priority).forEach(j=>{const c=make('article','journal-card');const top=make('div','jc-top');top.append(make('span','rank',`★ PRIORITY 0${j.priority}`),make('span','mini-badge',j.kci+' · '+j.language));c.append(top,make('h3',j.name_en===j.name?'english':'',j.name),make('div','jc-publisher',j.publisher));const meta=make('div','jc-meta');[j.frequency,j.fit].forEach(t=>meta.append(make('span','',t)));c.append(meta);const ft=make('div','jc-footer');const ifv=make('div','if','2025 KCI IF');ifv.append(make('strong','',j.kci_if==null?'—':Number(j.kci_if).toFixed(2)));ft.append(ifv,link(j.home_url||j.site_url,'학술지 홈페이지 ↗')); c.append(make('div','small-links',''));const sm=c.lastElementChild;sm.append(link(j.submit_url||j.site_url,'투고 시스템 ↗'),link(j.site_url,'모집 공고 ↗'));c.append(ft);wrap.append(c);});}
 // 한 학술지당 2027년 상반기 최우선 공고 1건,
@@ -89,5 +101,5 @@ function renderJournals(){const wrap=el('journal-list');wrap.replaceChildren();l
  arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · ${j.frequency||'발행주기 미확인'} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');urls.append(link(j.kci_url,'KCI ↗'),link(j.home_url||j.site_url,'홈페이지 ↗'),link(j.submit_url||j.site_url,'투고 ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
 function renderSources(){const dest=el('source-status');dest.replaceChildren();(state.scan.sources||[]).forEach(s=>{const r=make('div','source-line');r.append(make('strong',s.status==='ok'?'✓':s.status==='error'?'!':'○'));r.firstChild.className=s.status==='ok'?'ok':s.status==='error'?'error':'neutral';r.append(make('span','',s.name+' · '+(s.status==='ok'?'점검 성공':s.status==='error'?'점검 실패':s.message||'점검 전')));dest.append(r);});}
 async function loadJSON(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
-async function boot(){goal();try{const [journals,notices,scan,ranking]=await Promise.all(['./site/data/journals.json','./site/data/notices.json','./site/data/scan.json','./site/data/ranking.json'].map(loadJSON));state.journals=journals;state.notices=notices;state.scan=scan;state.ranking=ranking;setMetrics();renderPriority();renderRanking();renderNotices();renderJournals();renderSources();}catch(err){el('ranking-list').append(make('div','empty','집계 자료를 불러올 수 없습니다.'));el('priority-grid').append(make('div','empty','데이터를 불러올 수 없습니다. 로컬 파일을 직접 열었다면 웹서버로 실행해 주세요.'));el('notice-list').append(make('div','empty',err.message));}}
-document.querySelectorAll('[data-notice-filter]').forEach(btn=>btn.addEventListener('click',()=>{state.noticeFilter=btn.dataset.noticeFilter;document.querySelectorAll('[data-notice-filter]').forEach(b=>b.classList.toggle('active',b===btn));renderNotices();}));el('query').addEventListener('input',e=>{state.query=e.target.value;renderJournals();});el('sort').addEventListener('change',e=>{state.sort=e.target.value;renderJournals();});el('only-priority').addEventListener('change',e=>{state.onlyPriority=e.target.checked;renderJournals();});boot();
+async function boot(){goal();try{const [journals,notices,scan,ranking]=await Promise.all(['./site/data/journals.json','./site/data/notices.json','./site/data/scan.json','./site/data/ranking.json'].map(loadJSON));state.journals=journals;state.notices=notices;state.scan=scan;state.ranking=ranking;setMetrics();renderPriority();renderRanking();renderJournals();renderSources();}catch(err){el('ranking-list').append(make('div','empty','집계 자료를 불러올 수 없습니다.'));el('priority-grid').append(make('div','empty','데이터를 불러올 수 없습니다. 로컬 파일을 직접 열었다면 웹서버로 실행해 주세요.'));console.error('자료 로딩 오류',err);}}
+el('expand-rankings').addEventListener('click',()=>{state.showAllRankings=!state.showAllRankings;renderRanking();});el('query').addEventListener('input',e=>{state.query=e.target.value;renderJournals();});el('sort').addEventListener('change',e=>{state.sort=e.target.value;renderJournals();});el('only-priority').addEventListener('change',e=>{state.onlyPriority=e.target.checked;renderJournals();});boot();

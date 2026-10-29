@@ -4,6 +4,7 @@ const dateOnly=(s)=>s?new Date(`${s}T00:00:00+09:00`):null;
 const pretty=(s)=>s?(s.replace(/-/g,'.')):'공고 원문 확인';
 function make(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
 function link(url,label,cls){const a=make('a',cls,label);if(url && /^https:\/\//i.test(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}else{a.href='#';a.setAttribute('aria-disabled','true');}return a;}
+function journalLinks(j,cls=''){const out=[];if(j.submit_url)out.push(link(j.submit_url,'투고 ↗',cls));if(j.home_url||j.site_url)out.push(link(j.home_url||j.site_url,'학회 홈페이지 ↗',cls));else if(j.kci_url)out.push(link(j.kci_url,'KCI에서 확인 ↗',cls));return out;}
 function humanStatus(n){const now=new Date();const d=dateOnly(n.deadline);if(!d)return{label:'마감일 미확인',css:'pending'};if(d.getTime()+86400000>now.getTime())return{label:'마감 전 · 원문 확인',css:'open'};return{label:'지난 공고',css:'old'};}
 function goal(){const today=new Date();const end=dateOnly('2027-06-30');const left=Math.ceil((end-today)/86400000);el('days-left').textContent=Math.abs(left).toLocaleString()+'일';el('days-label').textContent=left>=0?'발행 목표일까지 남음':'발행 목표일 경과';}
 function setMetrics(){el('journal-count').textContent=state.journals.length.toLocaleString()+'종';el('priority-count').textContent=state.journals.filter(j=>j.priority>0).length+'종';el('notice-count').textContent=state.notices.length+'건';let d=state.scan.last_checked;el('last-check').textContent=d?new Date(d).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'미실행';const sources=state.scan.sources||[];el('scan-summary').textContent=sources.filter(x=>x.status==='ok').length+'개 출처 점검 성공';}
@@ -35,11 +36,11 @@ function renderRanking(){
   if(notice){
    due.append(make('strong','',pretty(notice.deadline)),make('small',notice.displayYear==='2027'?'2027년 공고':'2026년 참고'));
    pub.append(make('strong','',notice.publication_date?pretty(notice.publication_date):'미확인'));
-  }else{due.append(make('span','merge-unknown','공고 미확인'));pub.append(make('span','merge-unknown','미확인'));}
+  }else{due.append(make('span','merge-unknown','공고 미확인'));pub.append(make('span','merge-unknown','발행일 미확인'));}
   line.append(due,pub);
   const links=make('div','merge-links');
   if(notice&&notice.url)links.append(link(notice.url,'공고 ↗'));
-  links.append(link(journal.submit_url||journal.site_url,'투고 ↗'),link(journal.home_url||journal.site_url,'홈페이지 ↗'));
+  journalLinks(journal).forEach(a=>links.append(a));
   line.append(links);wrap.append(line);
  });
  const expand=el('expand-rankings');expand.hidden=ranked.length<=10;
@@ -98,7 +99,7 @@ function renderNotices(){
 }
 function renderJournals(){const wrap=el('journal-list');wrap.replaceChildren();let arr=state.journals.filter(j=>{const q=state.query.toLowerCase();return (!state.onlyPriority||j.priority>0)&&(!q||[j.name,j.name_en,j.publisher,j.fit].join(' ').toLowerCase().includes(q));});const sort=state.sort;arr.sort((a,b)=>sort==='ranking'?((scoreFor(b)??-1)-(scoreFor(a)??-1))||((a.priority||999)-(b.priority||999)):sort==='if'?((b.kci_if??-1)-(a.kci_if??-1)):sort==='name'?a.name.localeCompare(b.name,'ko'):((a.priority||999)-(b.priority||999))||((b.kci_if??0)-(a.kci_if??0)));
  if(!arr.length){wrap.append(make('div','empty','검색 조건에 맞는 학술지가 없습니다.'));return;}
- arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · ${j.frequency||'발행주기 미확인'} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');urls.append(link(j.kci_url,'KCI ↗'),link(j.home_url||j.site_url,'홈페이지 ↗'),link(j.submit_url||j.site_url,'투고 ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
+ arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · ${j.frequency||'발행주기 미확인'} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');journalLinks(j).forEach(a=>urls.append(a));if(j.kci_url&&(j.home_url||j.site_url))urls.append(link(j.kci_url,'KCI ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
 function renderSources(){const dest=el('source-status');dest.replaceChildren();(state.scan.sources||[]).forEach(s=>{const r=make('div','source-line');r.append(make('strong',s.status==='ok'?'✓':s.status==='error'?'!':'○'));r.firstChild.className=s.status==='ok'?'ok':s.status==='error'?'error':'neutral';r.append(make('span','',s.name+' · '+(s.status==='ok'?'점검 성공':s.status==='error'?'점검 실패':s.message||'점검 전')));dest.append(r);});}
 async function loadJSON(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
 async function boot(){goal();try{const [journals,notices,scan,ranking]=await Promise.all(['./site/data/journals.json','./site/data/notices.json','./site/data/scan.json','./site/data/ranking.json'].map(loadJSON));state.journals=journals;state.notices=notices;state.scan=scan;state.ranking=ranking;setMetrics();renderPriority();renderRanking();renderJournals();renderSources();}catch(err){el('ranking-list').append(make('div','empty','집계 자료를 불러올 수 없습니다.'));el('priority-grid').append(make('div','empty','데이터를 불러올 수 없습니다. 로컬 파일을 직접 열었다면 웹서버로 실행해 주세요.'));console.error('자료 로딩 오류',err);}}

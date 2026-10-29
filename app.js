@@ -8,6 +8,7 @@ function journalLinks(j,cls=''){const out=[];if(j.submit_url)out.push(link(j.sub
 function humanStatus(n){const now=new Date();const d=dateOnly(n.deadline);if(!d)return{label:'마감일 미확인',css:'pending'};if(d.getTime()+86400000>now.getTime())return{label:'마감 전 · 원문 확인',css:'open'};return{label:'지난 공고',css:'old'};}
 function goal(){const today=new Date();const end=dateOnly('2027-06-30');const left=Math.ceil((end-today)/86400000);el('days-left').textContent=Math.abs(left).toLocaleString()+'일';el('days-label').textContent=left>=0?'발행 목표일까지 남음':'발행 목표일 경과';}
 function setMetrics(){el('journal-count').textContent=state.journals.length.toLocaleString()+'종';el('priority-count').textContent=state.journals.filter(j=>j.priority>0).length+'종';el('notice-count').textContent=state.notices.length+'건';let d=state.scan.last_checked;el('last-check').textContent=d?new Date(d).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'미실행';const sources=state.scan.sources||[];el('scan-summary').textContent=sources.filter(x=>x.status==='ok').length+'개 출처 점검 성공';}
+function exactDates(j){if(j.publication_schedule_status==='published_rule' && (j.publication_schedule||[]).length)return j.publication_schedule.map(x=>x.replace('-','월 ')+'일').join(' · ');return '정확한 발행일 확인 전';}
 function scoreFor(j){const rec=(state.ranking.ranked||[]).find(r=>r.journal_id===j.id);return rec?rec.score:null;}
 function renderRanking(){
  const wrap=el('ranking-list');wrap.replaceChildren();
@@ -26,7 +27,7 @@ function renderRanking(){
   if(!journal)return;
   const line=make('article','merged-ranking-row');
   line.append(make('div','rank-no',String(i+1).padStart(2,'0')));
-  const details=make('div','rank-details');details.append(make('strong','',journal.name),make('p','',journal.publisher||''));details.append(make('small','',`KCI 발행 간기: ${journal.frequency||'확인 전'} · 발행일은 별도 확인`));
+  const details=make('div','rank-details');details.append(make('strong','',journal.name),make('p','',journal.publisher||''));details.append(make('small','',`정기 발행일: ${exactDates(journal)} · ${journal.frequency||'주기 미확인'}`));
   const profs=Object.entries(item.by_professor||{}).filter(([,n])=>n>0).map(([k,n])=>`${k} ${n}`).join(' · ');
   if(profs)details.append(make('small','',profs));line.append(details);
   line.append(make('div','rank-score',String(item.score)+'편'));
@@ -35,8 +36,8 @@ function renderRanking(){
   const pub=make('div','merge-date');
   if(notice){
    due.append(make('strong','',pretty(notice.deadline)),make('small',notice.displayYear==='2027'?'2027년 공고':'2026년 참고'));
-   pub.append(make('strong','',notice.publication_date?pretty(notice.publication_date):'미확인'));
-  }else{due.append(make('span','merge-unknown','공고 미확인'));pub.append(make('span','merge-unknown','발행일 미확인'));}
+   pub.append(make('strong','',notice.publication_date?pretty(notice.publication_date):'해당 호 미확인'));if(!notice.publication_date)pub.append(make('small','',`정기 발행: ${exactDates(journal)}`));
+  }else{const rules=journal.submission_deadline_status==='official_rule'?(journal.submission_deadline_rules||[]):[];due.append(make('span','merge-unknown',rules.length?'정기 마감: '+rules[0].replace('-','월 ')+'일':'공고 미확인'));if(rules.length)due.append(make('small','',`2027년 공고 미확인 · 공식 규정`));pub.append(make('small','',`정기 발행: ${exactDates(journal)}`));}
   line.append(due,pub);
   const links=make('div','merge-links');
   if(notice&&notice.url)links.append(link(notice.url,'공고 ↗'));
@@ -48,7 +49,7 @@ function renderRanking(){
  expand.textContent=state.showAllRankings?'접기':`전체 ${ranked.length}종 보기`;
  if(!r.complete&&!state.showAllRankings)wrap.prepend(make('div','ranking-warning','자료 일부를 기반으로 집계한 예비 순위입니다. 전체 KCI 게재 실적의 최종 순위가 아닙니다.'));
 }
-function renderPriority(){const wrap=el('priority-grid');wrap.replaceChildren();state.journals.filter(j=>j.priority>0).sort((a,b)=>a.priority-b.priority).forEach(j=>{const c=make('article','journal-card');const top=make('div','jc-top');top.append(make('span','rank',`★ PRIORITY 0${j.priority}`),make('span','mini-badge',j.kci+' · '+j.language));c.append(top,make('h3',j.name_en===j.name?'english':'',j.name),make('div','jc-publisher',j.publisher));const meta=make('div','jc-meta');[j.frequency,j.fit].forEach(t=>meta.append(make('span','',t)));c.append(meta);const ft=make('div','jc-footer');const ifv=make('div','if','2025 KCI IF');ifv.append(make('strong','',j.kci_if==null?'—':Number(j.kci_if).toFixed(2)));ft.append(ifv,link(j.home_url||j.site_url,'학술지 홈페이지 ↗')); c.append(make('div','small-links',''));const sm=c.lastElementChild;sm.append(link(j.submit_url||j.site_url,'투고 시스템 ↗'),link(j.site_url,'모집 공고 ↗'));c.append(ft);wrap.append(c);});}
+function renderPriority(){const wrap=el('priority-grid');wrap.replaceChildren();state.journals.filter(j=>j.priority>0).sort((a,b)=>a.priority-b.priority).forEach(j=>{const c=make('article','journal-card');const top=make('div','jc-top');top.append(make('span','rank',`★ PRIORITY 0${j.priority}`),make('span','mini-badge',j.kci+' · '+j.language));c.append(top,make('h3',j.name_en===j.name?'english':'',j.name),make('div','jc-publisher',j.publisher));const meta=make('div','jc-meta');[j.frequency,`정기 발행: ${exactDates(j)}`,j.fit].filter(Boolean).forEach(t=>meta.append(make('span','',t)));c.append(meta);const ft=make('div','jc-footer');const ifv=make('div','if','2025 KCI IF');ifv.append(make('strong','',j.kci_if==null?'—':Number(j.kci_if).toFixed(2)));ft.append(ifv,link(j.home_url||j.site_url,'학술지 홈페이지 ↗')); c.append(make('div','small-links',''));const sm=c.lastElementChild;sm.append(link(j.submit_url||j.site_url,'투고 시스템 ↗'),link(j.site_url,'모집 공고 ↗'));c.append(ft);wrap.append(c);});}
 // 한 학술지당 2027년 상반기 최우선 공고 1건,
 // 없으면 2026년 1~5월 투고 마감 중 가장 이른 공고 1건만 노출합니다.
 function noticeDate(n){return /^20\d\d-\d\d-\d\d$/.test(n.deadline||'')?n.deadline:null;}
@@ -100,7 +101,7 @@ function renderNotices(){
 }
 function renderJournals(){const wrap=el('journal-list');wrap.replaceChildren();let arr=state.journals.filter(j=>{const q=state.query.toLowerCase();return (!state.onlyPriority||j.priority>0)&&(!q||[j.name,j.name_en,j.publisher,j.fit].join(' ').toLowerCase().includes(q));});const sort=state.sort;arr.sort((a,b)=>sort==='ranking'?((scoreFor(b)??-1)-(scoreFor(a)??-1))||((a.priority||999)-(b.priority||999)):sort==='if'?((b.kci_if??-1)-(a.kci_if??-1)):sort==='name'?a.name.localeCompare(b.name,'ko'):((a.priority||999)-(b.priority||999))||((b.kci_if??0)-(a.kci_if??0)));
  if(!arr.length){wrap.append(make('div','empty','검색 조건에 맞는 학술지가 없습니다.'));return;}
- arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · ${j.frequency||'발행주기 미확인'} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');journalLinks(j).forEach(a=>urls.append(a));if(j.kci_url&&(j.home_url||j.site_url))urls.append(link(j.kci_url,'KCI ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
+ arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · 정기 발행: ${exactDates(j)} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');journalLinks(j).forEach(a=>urls.append(a));if(j.kci_url&&(j.home_url||j.site_url))urls.append(link(j.kci_url,'KCI ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
 function renderSources(){const dest=el('source-status');dest.replaceChildren();(state.scan.sources||[]).forEach(s=>{const r=make('div','source-line');r.append(make('strong',s.status==='ok'?'✓':s.status==='error'?'!':'○'));r.firstChild.className=s.status==='ok'?'ok':s.status==='error'?'error':'neutral';r.append(make('span','',s.name+' · '+(s.status==='ok'?'점검 성공':s.status==='error'?'점검 실패':s.message||'점검 전')));dest.append(r);});}
 async function loadJSON(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
 async function boot(){goal();try{const [journals,notices,scan,ranking]=await Promise.all(['./site/data/journals.json','./site/data/notices.json','./site/data/scan.json','./site/data/ranking.json'].map(loadJSON));state.journals=journals;state.notices=notices;state.scan=scan;state.ranking=ranking;setMetrics();renderPriority();renderRanking();renderJournals();renderSources();}catch(err){el('ranking-list').append(make('div','empty','집계 자료를 불러올 수 없습니다.'));el('priority-grid').append(make('div','empty','데이터를 불러올 수 없습니다. 로컬 파일을 직접 열었다면 웹서버로 실행해 주세요.'));console.error('자료 로딩 오류',err);}}

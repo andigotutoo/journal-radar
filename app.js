@@ -42,9 +42,10 @@ function renderJournals(){const wrap=el('journal-list');wrap.replaceChildren();l
  arr.forEach(j=>{const row=make('article','journal-row');const h=make('div');h.append(make('h4','',j.name),make('p','',`${j.publisher} · ${j.frequency||'발행주기 미확인'} · ${j.language||''}`));const ifc=make('div','if-cell',j.kci_if!=null?Number(j.kci_if).toFixed(2):'—');const sc=scoreFor(j);const label=make('div','label-cell',sc!==null?sc+'편 게재':j.priority>0?'★ 우선 추적':'집계 전');const urls=make('div','links');urls.append(link(j.kci_url,'KCI ↗'),link(j.home_url||j.site_url,'홈페이지 ↗'),link(j.submit_url||j.site_url,'투고 ↗'));row.append(h,ifc,label,urls);wrap.append(row);});}
 function renderSources(){const dest=el('source-status');dest.replaceChildren();(state.scan.sources||[]).forEach(s=>{const r=make('div','source-line');r.append(make('strong',s.status==='ok'?'✓':s.status==='error'?'!':'○'));r.firstChild.className=s.status==='ok'?'ok':s.status==='error'?'error':'neutral';r.append(make('span','',s.name+' · '+(s.status==='ok'?'점검 성공':s.status==='error'?'점검 실패':s.message||'점검 전')));dest.append(r);});}
 async function loadJSON(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json();}
-async function boot(){goal();try{const [journals,notices,scan,ranking]=await const [journals, notices, scan, ranking] = await Promise.all([
-  './site/data/journals.json',
-  './site/data/notices.json',
-  './site/data/scan.json',
-  './site/data/ranking.json'
-].map(loadJSON));
+async function boot(){goal();try{
+  const [journals, notices, scan, ranking] = await Promise.all([
+    './site/data/journals.json',
+    './site/data/notices.json',
+    './site/data/scan.json',
+    './site/data/ranking.json'
+  ].map(loadJSON));

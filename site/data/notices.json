@@ -1,5 +1,123 @@
 [
-  {"id":"jet-2026-1","journal_id":"jet","title":"[교육공학연구] 42권 1호 논문 모집 안내","published":"2026-01-16","deadline":"2026-01-31","publication_date":null,"url":"https://www.kset.or.kr/index.php?bo_idx=9&bo_rows=&hCode=BOARD&idx=703&page=view&sfc=&sfl=&stx=&year=0","source":"official","deadline_verified":true},
-  {"id":"eti-2026-1","journal_id":"eti","title":"[ETI] 제27권 1호 논문투고 안내","published":"2026-01-28","deadline":"2026-02-01","publication_date":"2026-04-30","url":"https://kset.or.kr/index.php?bo_idx=9&hCode=BOARD&idx=711&page=view","source":"official","deadline_verified":true},
-  {"id":"kaeim-2026-1","journal_id":"kaeim","title":"[교육정보미디어연구] 제32권 1호 논문 접수 (일반 1.10 / 긴급 1.24)","published":"2025-12-30","deadline":"2026-01-10","publication_date":null,"url":"https://kaeim.jams.or.kr/co/com/EgovMenu.kci?notiSeq=000000050450&s_MenuId=MENU-000000000061000&s_url=%2Fpo%2Fcommunity%2Fnotice%2FnoticeView.kci","source":"official","deadline_verified":true}
+  {
+    "id": "kaeim-5985a7d868e5e2d3",
+    "journal_id": "kaeim",
+    "title": "[교육정보미디어연구] 제32권 6호 논문 접수를 진행합 ...",
+    "published": "2026-10-25",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "jet-5dfe266adaddbf29",
+    "journal_id": "jet",
+    "title": "[교육공학연구] 42권 4호 논문 모집 안내",
+    "published": "2026-10-15",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://www.kset.or.kr/index.php?page=view&pg=1&idx=853&hCode=BOARD&bo_idx=9&sfl=&stx=&sfc=&bo_rows=&year=0",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "kaeim-d7ca9f601bb30ade",
+    "journal_id": "kaeim",
+    "title": "[교육정보미디어연구] 제32권 5호 논문 접수를 진행합 ...",
+    "published": "2026-08-31",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "jet-a7a6fe45c8ca2781",
+    "journal_id": "jet",
+    "title": "[교육공학연구] 42권 3호 논문 모집 안내",
+    "published": "2026-07-14",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://www.kset.or.kr/index.php?page=view&pg=1&idx=803&hCode=BOARD&bo_idx=9&sfl=&stx=&sfc=&bo_rows=&year=0",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "eti-a8a99210995c4418",
+    "journal_id": "eti",
+    "title": "한국교육공학회 <Educational Technology International> 제 27권 2호 논문투고 안내",
+    "published": "2026-07-14",
+    "deadline": "2026-07-14",
+    "publication_date": null,
+    "url": "https://www.kset.or.kr/index.php?page=view&pg=1&idx=802&hCode=BOARD&bo_idx=9&sfl=&stx=&sfc=&bo_rows=&year=0",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "kaeim-f58434c1e8c66473",
+    "journal_id": "kaeim",
+    "title": "[교육정보미디어연구] 제32권 4호 논문 접수를 진행합 ...",
+    "published": "2026-07-02",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "kaeim-53b7794529faab7f",
+    "journal_id": "kaeim",
+    "title": "[교육정보미디어연구] 제32권 3호 논문 접수를 진행합 ...",
+    "published": "2026-04-30",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "kaeim-57e2b04d1a6c3a98",
+    "journal_id": "kaeim",
+    "title": "[교육정보미디어연구] 제32권 2호 논문 접수를 진행합 ...",
+    "published": "2026-02-26",
+    "deadline": null,
+    "publication_date": null,
+    "url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci",
+    "source": "official",
+    "deadline_verified": false
+  },
+  {
+    "id": "eti-2026-1",
+    "journal_id": "eti",
+    "title": "[ETI] 제27권 1호 논문투고 안내",
+    "published": "2026-01-28",
+    "deadline": "2026-02-01",
+    "publication_date": "2026-04-30",
+    "url": "https://kset.or.kr/index.php?bo_idx=9&hCode=BOARD&idx=711&page=view",
+    "source": "official",
+    "deadline_verified": true
+  },
+  {
+    "id": "jet-2026-1",
+    "journal_id": "jet",
+    "title": "[교육공학연구] 42권 1호 논문 모집 안내",
+    "published": "2026-01-16",
+    "deadline": "2026-01-31",
+    "publication_date": null,
+    "url": "https://www.kset.or.kr/index.php?bo_idx=9&bo_rows=&hCode=BOARD&idx=703&page=view&sfc=&sfl=&stx=&year=0",
+    "source": "official",
+    "deadline_verified": true
+  },
+  {
+    "id": "kaeim-2026-1",
+    "journal_id": "kaeim",
+    "title": "[교육정보미디어연구] 제32권 1호 논문 접수 (일반 1.10 / 긴급 1.24)",
+    "published": "2025-12-30",
+    "deadline": "2026-01-10",
+    "publication_date": null,
+    "url": "https://kaeim.jams.or.kr/co/com/EgovMenu.kci?notiSeq=000000050450&s_MenuId=MENU-000000000061000&s_url=%2Fpo%2Fcommunity%2Fnotice%2FnoticeView.kci",
+    "source": "official",
+    "deadline_verified": true
+  }
 ]

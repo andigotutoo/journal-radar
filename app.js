@@ -8,7 +8,12 @@ function journalLinks(j,cls=''){const out=[];if(j.submit_url)out.push(link(j.sub
 function humanStatus(n){const now=new Date();const d=dateOnly(n.deadline);if(!d)return{label:'마감일 미확인',css:'pending'};if(d.getTime()+86400000>now.getTime())return{label:'마감 전 · 원문 확인',css:'open'};return{label:'지난 공고',css:'old'};}
 function goal(){const today=new Date();const end=dateOnly('2027-06-30');const left=Math.ceil((end-today)/86400000);el('days-left').textContent=Math.abs(left).toLocaleString()+'일';el('days-label').textContent=left>=0?'발행 목표일까지 남음':'발행 목표일 경과';}
 function setMetrics(){el('journal-count').textContent=state.journals.length.toLocaleString()+'종';el('priority-count').textContent=state.journals.filter(j=>j.priority>0).length+'종';el('notice-count').textContent=state.notices.length+'건';let d=state.scan.last_checked;el('last-check').textContent=d?new Date(d).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'미실행';const sources=state.scan.sources||[];el('scan-summary').textContent=sources.filter(x=>x.status==='ok').length+'개 출처 점검 성공';}
-function exactDates(j){if(j.publication_schedule_status==='published_rule' && (j.publication_schedule||[]).length)return j.publication_schedule.map(x=>x.replace('-','월 ')+'일').join(' · ');return '정확한 발행일 확인 전';}
+function exactDates(j) {
+ const dates = (j.publication_schedule || []).map(x => x.replace('-', '월 ') + '일').join(' · ');
+ if (dates && j.publication_schedule_status === 'published_rule') return dates;
+ if (dates && j.publication_schedule_status === 'partial_rule') return dates + ' · 일부 발행일 확인 필요';
+ return '정확한 발행일 확인 전';
+}
 function scoreFor(j){const rec=(state.ranking.ranked||[]).find(r=>r.journal_id===j.id);return rec?rec.score:null;}
 function renderRanking(){
  const wrap=el('ranking-list');wrap.replaceChildren();
@@ -42,7 +47,7 @@ function renderRanking(){
   const links=make('div','merge-links');
   if(notice&&notice.url)links.append(link(notice.url,'공고 ↗'));
   journalLinks(journal).forEach(a=>links.append(a));
-  if(journal.kci_url){const detail=/[?&](?:sere_id|sereId)=/.test(journal.kci_url);links.append(link(journal.kci_url,detail?'KCI 상세정보 ↗':'KCI 학술지 검색 ↗'));}
+  if(journal.kci_url){const detail=/[?&](?:sere_id|(?:sereSearBean\.)?sereId)=/.test(journal.kci_url);links.append(link(journal.kci_url,detail?'KCI 상세정보 ↗':'KCI 학술지 검색 ↗'));}
   line.append(links);wrap.append(line);
  });
  const expand=el('expand-rankings');expand.hidden=ranked.length<=10;

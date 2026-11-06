@@ -1,0 +1,183 @@
+[
+  {
+    "name": "비교교육연구",
+    "publisher": "한국비교교육학회",
+    "id": "kci-0155",
+    "kci_sere_id": "SER000002131",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000787&sereSearBean.sereId=SER000002131",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국비교교육학회",
+    "official_rule": "발행 간기 연6회 , 03월 31일, 05월 31일, 06월 30일, 09월 30일, 11월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "05-31",
+      "06-30",
+      "09-30",
+      "11-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000787&sereSearBean.sereId=SER000002131",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "아동교육",
+    "publisher": "한국아동교육학회",
+    "id": "kci-0156",
+    "kci_sere_id": "001652",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000814&sereSearBean.sereId=001652",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국아동교육학회",
+    "official_rule": "발행 간기 연4회 , 02월 25일, 05월 25일, 08월 25일, 11월 25일",
+    "publication_schedule": [
+      "02-25",
+      "05-25",
+      "08-25",
+      "11-25"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000814&sereSearBean.sereId=001652",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "한국실과교육학회지",
+    "publisher": "한국실과교육학회",
+    "id": "kci-0157",
+    "kci_sere_id": "000635",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000891&sereSearBean.sereId=000635",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국실과교육학회",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000891&sereSearBean.sereId=000635",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "초등도덕교육",
+    "publisher": "한국초등도덕교육학회",
+    "id": "kci-0158",
+    "kci_sere_id": "001729",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000876&sereSearBean.sereId=001729",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국초등도덕교육학회",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000876&sereSearBean.sereId=001729",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "영재교육연구",
+    "publisher": "한국영재학회",
+    "id": "kci-0159",
+    "kci_sere_id": "001841",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000875&sereSearBean.sereId=001841",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국영재학회",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000875&sereSearBean.sereId=001841",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "수학교육",
+    "publisher": "한국수학교육학회",
+    "id": "kci-0162",
+    "kci_sere_id": "000232",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000979&sereSearBean.sereId=000232",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국수학교육학회",
+    "official_rule": "발행 간기 연4회 , 02월 28일, 05월 31일, 08월 31일, 11월 30일",
+    "publication_schedule": [
+      "02-28",
+      "05-31",
+      "08-31",
+      "11-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000979&sereSearBean.sereId=000232",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "학교수학",
+    "publisher": "대한수학교육학회",
+    "id": "kci-0163",
+    "kci_sere_id": "000843",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000952&sereSearBean.sereId=000843",
+    "kci_detail_status": "verified",
+    "official_publisher": "대한수학교육학회",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000952&sereSearBean.sereId=000843",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "대한공업교육학회지",
+    "publisher": "대한공업교육학회",
+    "id": "kci-0164",
+    "kci_sere_id": "001670",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001018&sereSearBean.sereId=001670",
+    "kci_detail_status": "verified",
+    "official_publisher": "대한공업교육학회",
+    "official_rule": "발행 간기 연3회 , 02월 28일, 06월 30일, 10월 31일",
+    "publication_schedule": [
+      "02-28",
+      "06-30",
+      "10-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001018&sereSearBean.sereId=001670",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "시각장애연구",
+    "publisher": "한국시각장애교육&재활학회",
+    "id": "kci-0165",
+    "kci_sere_id": "001803",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001162&sereSearBean.sereId=001803",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국시각장애교육&재활학회",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001162&sereSearBean.sereId=001803",
+    "publication_schedule_status": "published_rule"
+  },
+  {
+    "name": "교육인류학연구",
+    "publisher": "한국교육인류학회",
+    "id": "kci-0166",
+    "kci_sere_id": "001477",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001595&sereSearBean.sereId=001477",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국교육인류학회",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001595&sereSearBean.sereId=001477",
+    "publication_schedule_status": "published_rule"
+  }
+]

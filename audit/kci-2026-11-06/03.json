@@ -1,0 +1,185 @@
+[
+  {
+    "name": "평생학습사회",
+    "id": "kci-0028",
+    "publisher": "원격교육혁신연구원",
+    "kci_sere_id": "SER000015054",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005328&sereSearBean.sereId=SER000015054",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국방송통신대학교 원격교육혁신연구원",
+    "official_rule": "발행 간기 연4회 , 02월 28일, 05월 31일, 08월 31일, 11월 30일",
+    "publication_schedule": [
+      "02-28",
+      "05-31",
+      "08-31",
+      "11-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005328&sereSearBean.sereId=SER000015054",
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "http://journal.ide.knou.ac.kr"
+  },
+  {
+    "name": "국제교류와 융합교육",
+    "publisher": "한국국제교육교류학회",
+    "id": "kci-0029",
+    "kci_sere_id": "SER000006002",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000069281&sereSearBean.sereId=SER000006002",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연3회 , 04월 30일, 08월 31일, 11월 30일",
+    "publication_schedule": [
+      "04-30",
+      "08-31",
+      "11-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000069281&sereSearBean.sereId=SER000006002",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국국제교육교류학회",
+    "kci_journal_homepage": "http://www.korsire.org"
+  },
+  {
+    "name": "농업교육과 인적자원개발",
+    "publisher": "한국농·산업교육학회",
+    "id": "kci-0033",
+    "kci_sere_id": "000464",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001131&sereSearBean.sereId=000464",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001131&sereSearBean.sereId=000464",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국농·산업교육학회"
+  },
+  {
+    "name": "언어치료연구",
+    "publisher": "한국언어치료학회",
+    "id": "kci-0034",
+    "kci_sere_id": "000939",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001369&sereSearBean.sereId=000939",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 01월 31일, 04월 30일, 07월 31일, 10월 31일",
+    "publication_schedule": [
+      "01-31",
+      "04-30",
+      "07-31",
+      "10-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001369&sereSearBean.sereId=000939",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국언어치료학회"
+  },
+  {
+    "name": "교육평가연구",
+    "publisher": "한국교육평가학회",
+    "id": "kci-0035",
+    "kci_sere_id": "000051",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001602&sereSearBean.sereId=000051",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 03월 30일, 06월 30일, 09월 30일, 12월 30일",
+    "publication_schedule": [
+      "03-30",
+      "06-30",
+      "09-30",
+      "12-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001602&sereSearBean.sereId=000051",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국교육평가학회"
+  },
+  {
+    "name": "Communication Sciences and Disorders",
+    "publisher": "한국언어청각임상학회",
+    "id": "kci-0036",
+    "kci_sere_id": "000725",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001610&sereSearBean.sereId=000725",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001610&sereSearBean.sereId=000725",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국언어청각임상학회"
+  },
+  {
+    "name": "실과교육연구",
+    "publisher": "한국실과교육연구학회",
+    "id": "kci-0037",
+    "kci_sere_id": "SER000000664",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001609&sereSearBean.sereId=SER000000664",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 02월 28일, 05월 31일, 08월 31일, 11월 30일",
+    "publication_schedule": [
+      "02-28",
+      "05-31",
+      "08-31",
+      "11-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001609&sereSearBean.sereId=SER000000664",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국실과교육연구학회"
+  },
+  {
+    "name": "홀리스틱융합교육연구",
+    "publisher": "한국홀리스틱융합교육학회",
+    "id": "kci-0038",
+    "kci_sere_id": "002071",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001615&sereSearBean.sereId=002071",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 01월 31일, 04월 30일, 07월 31일, 10월 31일",
+    "publication_schedule": [
+      "01-31",
+      "04-30",
+      "07-31",
+      "10-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001615&sereSearBean.sereId=002071",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국홀리스틱융합교육학회"
+  },
+  {
+    "name": "한국학교수학회논문집",
+    "publisher": "한국학교수학회",
+    "id": "kci-0041",
+    "kci_sere_id": "001597",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001653&sereSearBean.sereId=001597",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 03월 30일, 06월 30일, 09월 30일, 12월 30일",
+    "publication_schedule": [
+      "03-30",
+      "06-30",
+      "09-30",
+      "12-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001653&sereSearBean.sereId=001597",
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국학교수학회"
+  },
+  {
+    "name": "Audiology and Speech Research",
+    "publisher": "한국청각언어재활학회",
+    "id": "kci-0044",
+    "kci_sere_id": "SER000010392",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002180&sereSearBean.sereId=SER000010392",
+    "kci_detail_status": "verified",
+    "official_rule": "발행 간기 연4회 , 01월 31일, 04월 31일, 07월 31일, 10월 31일",
+    "reason": "KCI 발행 간기에 존재하지 않거나 중복된 날짜 표기: 01월 31일, 04월 31일, 07월 31일, 10월 31일",
+    "official_publisher": "한국청각언어재활학회",
+    "kci_journal_homepage": "https://www.e-asr.org/",
+    "publication_schedule": [
+      "01-31",
+      "07-31",
+      "10-31"
+    ],
+    "publication_schedule_status": "partial_rule",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002180&sereSearBean.sereId=SER000010392",
+    "publication_schedule_note": "4월 발행일 미확인 · KCI 원문에 4월 31일 표기"
+  }
+]

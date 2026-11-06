@@ -1,0 +1,646 @@
+{
+  "checked_at": "2026-11-06T12:21:21.743368+00:00",
+  "total": 186,
+  "checked": 186,
+  "verified_dates": 28,
+  "verified_kci_id": 29,
+  "updated": 12,
+  "unresolved": [
+    {
+      "name": "교육학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "특수교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "행동분석ㆍ지원연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "사고개발",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육법학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육재정경제연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "International Journal of Early Childhood Education",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국학교·지역보건교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "리터러시 연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "영유아교육과정연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "내러티브와 교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "방과후학교연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "아시아교육연구",
+      "reason": "제목 불일치"
+    },
+    {
+      "name": "인성교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "특수교육저널:이론과 실천",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "어린이미디어연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "초등상담연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "통합교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국언어문화학",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Journal of Asia Pacific Counseling",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "평생학습사회",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "국제교류와 융합교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "농업교육과 인적자원개발",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "언어치료연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육평가연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Communication Sciences and Disorders",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "실과교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "홀리스틱융합교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국학교수학회논문집",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Audiology and Speech Research",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "예술심리치료연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "통합교육과정연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "사고와표현",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국유아교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "The SNU Journal of Education Research",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "역량개발학습연구(구 한국HRD연구)",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "학교와 수업 연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "글로벌교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "미래교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "경인교육대학교 교육연구원 교육논총",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Journal of Educational Evaluation for Health Professions",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "통일교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육공동체연구와실천",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육컨설팅코칭연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육사상연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "창의력교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "미술교육연구논총",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육과정연구",
+      "reason": "제목 불일치"
+    },
+    {
+      "name": "교육원리연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "아동과 권리",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "미래유아교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "발달장애연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "직업능력개발연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육과 학습: Global Creative Leader",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교원교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "보완대체의사소통연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "인격교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "지체·중복·건강장애연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "자폐성장애연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "사회과교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육정치학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "정서·행동장애연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "직업교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "초등과학교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "초등교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "進路敎育硏究",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "유아교육학논집",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "생물교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Andragogy Today: Interdisciplinary Journal of Adult & Continuing Education (IJACE)",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "초등수학교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Mathematics Education Research and Practice",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "수학교육 논문집",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국가정과교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국기술교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "생태유아교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "영유아교육.보육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육치료연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Multicultural Education Review",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "과학교육연구지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교사교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "특수교육논집",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육과학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "평생교육 · HRD연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국교육문제연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "외국어교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "현장과학교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교양학 연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "성인계속교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국청각언어장애교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Brain, Digital, & Learning",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "에너지기후변화교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "핵심역량교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육과 문화",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "노년교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "수학교육철학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "정신전력연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "빌둥 Bildung",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국초등수학교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "도덕윤리과교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육철학",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "특수교육학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "열린유아교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "수학교육학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국체육교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육의 이론과 실천",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국교육사학",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "영재와 영재교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "특수교육논총",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "미래교육학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "과학영재교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "구성주의유아교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "고등교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "유아특수교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육행정학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "유아교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "환경교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "사회과교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육과정평가연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육연구논총",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국어 교육 연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교양교육실천연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "대학 교수-학습 연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육심리연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "학습장애연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국일본교육학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "Asia Pacific Education Review",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "윤리교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "시민교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "비교교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "아동교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국실과교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "초등도덕교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "영재교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "수학교육",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "학교수학",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "대한공업교육학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "시각장애연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육인류학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "지방교육경영",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "어린이문학교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "육아지원연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "법교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육종합연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "다문화교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "KEDI Journal of Educational Policy",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "제주대학교 교육과학연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육발전",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육문제연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "초등교육연구논총",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "영유아교육: 이론과 실천",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "사회과수업연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "취업진로연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "직업과 자격 연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "교육비평",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "아동부모학회지",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "도덕교육연구",
+      "reason": "KCI 후보 페이지 발견 실패"
+    },
+    {
+      "name": "한국교육논총",
+      "reason": "KCI 후보 페이지 발견 실패"
+    }
+  ]
+}

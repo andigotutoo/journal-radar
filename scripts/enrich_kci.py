@@ -3,7 +3,7 @@
 확인 불가능/동명이학술지/HTTP 차단 시 수정하지 않고 보고서 기록.
 실행: pip install requests beautifulsoup4 ; python scripts/enrich_kci.py
 """
-import json,re,time,sys,os,datetime,html
+import json,re,time,sys,os,datetime,html,argparse,calendar
 from pathlib import Path
 from urllib.parse import quote,parse_qs,urlparse
 import requests
@@ -12,12 +12,12 @@ ROOT=Path(__file__).resolve().parents[1]
 DB=ROOT/'site/data/journals.json'
 REPORT=ROOT/'site/data/kci_enrichment_report.json'
 S=requests.Session();S.headers.update({'User-Agent':'Mozilla/5.0 (compatible; PaperRadar/1.0; public-academic-data-check)'})
-TIMEOUT=15
+TIMEOUT=10
 SERE=re.compile(r'(?:sere_id|sereId)=([\w\d]+)',re.I)
 DATE=re.compile(r'(?<!\d)(0?[1-9]|1[0-2])\s*월\s*(0?[1-9]|[12]\d|3[01])\s*일')
 def get(url):
  try:
-  r=S.get(url,timeout=TIMEOUT);r.raise_for_status();r.encoding=r.apparent_encoding if r.encoding is None else r.encoding
+  r=S.get(url,timeout=TIMEOUT);r.raise_for_status();r.encoding='utf-8'
   return r.text
  except Exception:return None
 def discover(j):
@@ -46,12 +46,21 @@ def analyze(text,j):
  pub=j.get('publisher','').replace(' ','')
  publisher_ok = (not pub) or (pub in body.replace(' ',''))
  m=re.search(r'발행간기\s*(.{0,160}?)(?:ISSN|발행연도|KCI IF|저작권|발행기관)',body)
- block=m.group(1) if m else ''
- dates=sorted(set(f'{int(a):02d}-{int(b):02d}' for a,b in DATE.findall(block)))
+ row=next((tr for tr in soup.find_all('tr') if tr.find('th') and tr.find('th').get_text(strip=True)=='발행간기'),None)
+ block=row.find('td').get_text(' ',strip=True) if row and row.find('td') else (m.group(1) if m else '')
+ dates=sorted(set(f'{int(a):02d}-{int(b):02d}' for a,b in DATE.findall(block) if int(b)<=calendar.monthrange(2000,int(a))[1]))
  return (dates,publisher_ok),None
-entries=json.loads(DB.read_text());report={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'total':len(entries),'verified_dates':0,'verified_kci_id':0,'updated':0,'unresolved':[]}
-for i,j in enumerate(entries):
- if not j.get('kci_sere_id') or not j.get('publication_schedule'):
+def main():
+ parser=argparse.ArgumentParser()
+ parser.add_argument('--limit',type=int,default=0,help='0: all journals')
+ parser.add_argument('--known-only',action='store_true')
+ args=parser.parse_args()
+ entries=json.loads(DB.read_text())
+ report={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'total':len(entries),'checked':0,'verified_dates':0,'verified_kci_id':0,'updated':0,'unresolved':[]}
+ for j in entries:
+  if args.known_only and not j.get('kci_sere_id'):continue
+  if args.limit and report['checked']>=args.limit:break
+  before=json.dumps(j,sort_keys=True,ensure_ascii=False)
   ids=discover(j); hit=False; reasons=[]
   for sid in ids:
    url=f'https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id={sid}'
@@ -64,13 +73,19 @@ for i,j in enumerate(entries):
    j.update(kci_sere_id=sid,kci_url=url,kci_detail_status='verified');hit=True
    if dates:
     j.update(publication_schedule=dates,publication_schedule_source=url,publication_schedule_status='published_rule')
+   else:reasons.append('정확한 발행일 미제공: 기존 자료 유지')
    break
-  if not hit:report['unresolved'].append({'name':j['name'],'reason':' / '.join(reasons) or 'KCI 후보 페이지 발견 실패'})
-  elif j.get('publication_schedule'):report['updated']+=1
-  if (i+1)%20==0:print('checked',i+1,'/',len(entries),flush=True)
+  if not hit or not dates:report['unresolved'].append({'name':j['name'],'reason':' / '.join(reasons) or 'KCI 후보 페이지 발견 실패'})
+  if before!=json.dumps(j,sort_keys=True,ensure_ascii=False):report['updated']+=1
+  report['checked']+=1
+  print('checked',report['checked'],'/',len(entries),j['name'],flush=True)
   time.sleep(0.3)
- if j.get('publication_schedule') and j.get('publication_schedule_status')=='published_rule':report['verified_dates']+=1
- if j.get('kci_sere_id'):report['verified_kci_id']+=1
-DB.write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
-REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-print('Result:',json.dumps({k:v for k,v in report.items() if k!='unresolved'},ensure_ascii=False))
+ report['verified_dates']=sum(bool(j.get('publication_schedule')) and j.get('publication_schedule_status')=='published_rule' for j in entries)
+ report['verified_kci_id']=sum(bool(j.get('kci_sere_id')) for j in entries)
+ DB.write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
+ REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ print('Result:',json.dumps({k:v for k,v in report.items() if k!='unresolved'},ensure_ascii=False))
+ return 1 if report['checked'] and len(report['unresolved'])==report['checked'] else 0
+
+if __name__=='__main__':
+ sys.exit(main())

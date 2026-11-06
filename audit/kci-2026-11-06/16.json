@@ -1,8 +1,8 @@
 [
   {
     "name": "초등교육연구논총",
-    "publisher": "초등교육연구소",
     "id": "kci-0178",
+    "publisher": "초등교육연구소",
     "kci_sere_id": "SER000014959",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005249&sereSearBean.sereId=SER000014959",
     "kci_detail_status": "verified",
@@ -19,8 +19,8 @@
   },
   {
     "name": "영유아교육: 이론과 실천",
-    "publisher": "이화어린이연구원",
     "id": "kci-0179",
+    "publisher": "이화어린이연구원",
     "kci_sere_id": "SER000004495",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000007338&sereSearBean.sereId=SER000004495",
     "kci_detail_status": "verified",
@@ -85,7 +85,8 @@
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000042368&sereSearBean.sereId=SER000004201",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "http://www.kasq.kr"
   },
   {
     "name": "교육비평",
@@ -141,8 +142,8 @@
   },
   {
     "name": "한국교육논총",
-    "publisher": "교육개발연구소",
     "id": "kci-0186",
+    "publisher": "교육개발연구소",
     "kci_sere_id": "SER000011795",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003322&sereSearBean.sereId=SER000011795",
     "kci_detail_status": "verified",
@@ -154,6 +155,7 @@
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003322&sereSearBean.sereId=SER000011795",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "https://neweri.cbnu.ac.kr/"
   }
 ]

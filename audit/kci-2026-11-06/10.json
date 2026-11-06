@@ -1,10 +1,21 @@
 [
   {
     "name": "Brain, Digital, & Learning",
-    "publisher": "뇌·AI기반교육연구소",
     "id": "kci-0115",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "뇌·AI기반교육연구소",
+    "kci_sere_id": "SER000004369",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000010899&sereSearBean.sereId=SER000004369",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국교원대학교 뇌·AI기반교육연구소",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000010899&sereSearBean.sereId=SER000004369",
+    "publication_schedule_status": "published_rule"
   },
   {
     "name": "에너지기후변화교육",
@@ -13,14 +24,15 @@
     "kci_sere_id": "SER000004013",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000011544&sereSearBean.sereId=SER000004013",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연3회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 02월 28일, 07월 31일, 12월 31일",
+    "official_rule": "발행 간기 연3회 , 02월 28일, 07월 31일, 12월 31일",
     "publication_schedule": [
       "02-28",
       "07-31",
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000011544&sereSearBean.sereId=SER000004013",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "에너지기후변화교육학회"
   },
   {
     "name": "핵심역량교육연구",
@@ -29,20 +41,30 @@
     "kci_sere_id": "SER000004734",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000041764&sereSearBean.sereId=SER000004734",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연2회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 06월 30일, 12월 30일",
+    "official_rule": "발행 간기 연2회 , 06월 30일, 12월 30일",
     "publication_schedule": [
       "06-30",
       "12-30"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000041764&sereSearBean.sereId=SER000004734",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국핵심역량교육학회"
   },
   {
     "name": "교육과 문화",
-    "publisher": "미래교육·창의연구소",
     "id": "kci-0118",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "미래교육·창의연구소",
+    "kci_sere_id": "SER000005601",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000042367&sereSearBean.sereId=SER000005601",
+    "kci_detail_status": "verified",
+    "official_publisher": "동명대학교 미래교육·창의연구소",
+    "official_rule": "발행 간기 연2회 , 06월 30일, 12월 31일",
+    "publication_schedule": [
+      "06-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000042367&sereSearBean.sereId=SER000005601",
+    "publication_schedule_status": "published_rule"
   },
   {
     "name": "노년교육연구",
@@ -51,29 +73,32 @@
     "kci_sere_id": "SER000004264",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000058101&sereSearBean.sereId=SER000004264",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연2회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 05월 31일, 11월 30일",
+    "official_rule": "발행 간기 연2회 , 05월 31일, 11월 30일",
     "publication_schedule": [
       "05-31",
       "11-30"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000058101&sereSearBean.sereId=SER000004264",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국노년교육학회"
   },
   {
     "name": "수학교육철학연구",
-    "publisher": "수학교육철학연구회",
     "id": "kci-0120",
+    "publisher": "수학교육철학연구회",
     "kci_sere_id": "SER000005927",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000059574&sereSearBean.sereId=SER000005927",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연3회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 04월 30일, 08월 31일, 12월 31일",
+    "official_publisher": "수학교육철학연구회",
+    "official_rule": "발행 간기 연3회 , 04월 30일, 08월 31일, 12월 31일",
     "publication_schedule": [
       "04-30",
       "08-31",
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000059574&sereSearBean.sereId=SER000005927",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "https://sites.google.com/view/jpme"
   },
   {
     "name": "정신전력연구",
@@ -82,7 +107,7 @@
     "kci_sere_id": "SER000005143",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000063566&sereSearBean.sereId=SER000005143",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연4회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 02월 15일, 05월 15일, 08월 15일, 11월 15일",
+    "official_rule": "발행 간기 연4회 , 02월 15일, 05월 15일, 08월 15일, 11월 15일",
     "publication_schedule": [
       "02-15",
       "05-15",
@@ -90,14 +115,24 @@
       "11-15"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000063566&sereSearBean.sereId=SER000005143",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "국방정신전력원"
   },
   {
     "name": "빌둥 Bildung",
-    "publisher": "교양기초교육연구소",
     "id": "kci-0122",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "교양기초교육연구소",
+    "kci_sere_id": "SER000005609",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000065623&sereSearBean.sereId=SER000005609",
+    "kci_detail_status": "verified",
+    "official_publisher": "단국대학교 교양기초교육연구소",
+    "official_rule": "발행 간기 연2회 , 03월 31일, 09월 30일",
+    "publication_schedule": [
+      "03-31",
+      "09-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000065623&sereSearBean.sereId=SER000005609",
+    "publication_schedule_status": "published_rule"
   },
   {
     "name": "한국초등수학교육학회지",
@@ -106,7 +141,7 @@
     "kci_sere_id": "SER000010591",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002540&sereSearBean.sereId=SER000010591",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연4회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 02월 28일, 05월 31일, 08월 31일, 11월 30일",
+    "official_rule": "발행 간기 연4회 , 02월 28일, 05월 31일, 08월 31일, 11월 30일",
     "publication_schedule": [
       "02-28",
       "05-31",
@@ -114,7 +149,8 @@
       "11-30"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002540&sereSearBean.sereId=SER000010591",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국초등수학교육학회"
   },
   {
     "name": "한국교육",
@@ -123,7 +159,15 @@
     "kci_sere_id": "000419",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002606&sereSearBean.sereId=000419",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연3회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 04월 31일, 08월 31일, 12월 31일",
-    "reason": "KCI 발행간기에 전체 월·일 미기재 또는 날짜·횟수 불일치"
+    "official_rule": "발행 간기 연3회 , 04월 31일, 08월 31일, 12월 31일",
+    "official_publisher": "한국교육개발원",
+    "publication_schedule": [
+      "04-30",
+      "08-31",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kedi.re.kr/khome/main/journal/infoThesisGuide.do",
+    "publication_schedule_status": "published_rule",
+    "verification_note": "KCI 4월 31일 표기를 한국교육개발원 운영지침으로 교차확인"
   }
 ]

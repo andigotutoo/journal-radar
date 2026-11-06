@@ -72,8 +72,8 @@
   },
   {
     "name": "교육종합연구",
-    "publisher": "교육종합연구원",
     "id": "kci-0171",
+    "publisher": "교육종합연구원",
     "kci_sere_id": "SER000010453",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002256&sereSearBean.sereId=SER000010453",
     "kci_detail_status": "verified",
@@ -120,12 +120,13 @@
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002606&sereSearBean.sereId=SER000000659",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "https://kedi.re.kr/eng/kedi/main/main.do"
   },
   {
     "name": "제주대학교 교육과학연구",
-    "publisher": "교육과학연구소",
     "id": "kci-0175",
+    "publisher": "교육과학연구소",
     "kci_sere_id": "SER000003862",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003241&sereSearBean.sereId=SER000003862",
     "kci_detail_status": "verified",
@@ -142,8 +143,8 @@
   },
   {
     "name": "교육발전",
-    "publisher": "사범대학 부설 교육연구소",
     "id": "kci-0176",
+    "publisher": "사범대학 부설 교육연구소",
     "kci_sere_id": "SER000012124",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003513&sereSearBean.sereId=SER000012124",
     "kci_detail_status": "verified",
@@ -159,8 +160,8 @@
   },
   {
     "name": "교육문제연구",
-    "publisher": "교육문제연구소",
     "id": "kci-0177",
+    "publisher": "교육문제연구소",
     "kci_sere_id": "001272",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000004058&sereSearBean.sereId=001272",
     "kci_detail_status": "verified",

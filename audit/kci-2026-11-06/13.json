@@ -1,8 +1,8 @@
 [
   {
     "name": "교육연구논총",
-    "publisher": "교육연구소",
     "id": "kci-0145",
+    "publisher": "교육연구소",
     "kci_sere_id": "SER000001533",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003264&sereSearBean.sereId=SER000001533",
     "kci_detail_status": "verified",
@@ -37,8 +37,8 @@
   },
   {
     "name": "교양교육실천연구",
-    "publisher": "디그니타스교양교육연구소",
     "id": "kci-0147",
+    "publisher": "디그니타스교양교육연구소",
     "kci_sere_id": "SER000005124",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000061622&sereSearBean.sereId=SER000005124",
     "kci_detail_status": "verified",
@@ -119,12 +119,13 @@
       "10-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000528&sereSearBean.sereId=002070",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "http://www.skje.co.kr/"
   },
   {
     "name": "Asia Pacific Education Review",
-    "publisher": "교육연구소",
     "id": "kci-0152",
+    "publisher": "교육연구소",
     "kci_sere_id": "001098",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003017&sereSearBean.sereId=001098",
     "kci_detail_status": "verified",

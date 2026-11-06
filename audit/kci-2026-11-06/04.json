@@ -6,7 +6,7 @@
     "kci_sere_id": "SER000010492",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002299&sereSearBean.sereId=SER000010492",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연4회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 03월 30일, 06월 30일, 09월 30일, 12월 30일",
+    "official_rule": "발행 간기 연4회 , 03월 30일, 06월 30일, 09월 30일, 12월 30일",
     "publication_schedule": [
       "03-30",
       "06-30",
@@ -14,7 +14,8 @@
       "12-30"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002299&sereSearBean.sereId=SER000010492",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국예술심리치료학회"
   },
   {
     "name": "통합교육과정연구",
@@ -23,7 +24,7 @@
     "kci_sere_id": "SER000010496",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002323&sereSearBean.sereId=SER000010496",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연4회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 02월 28일, 05월 31일, 08월 31일, 11월 30일",
+    "official_rule": "발행 간기 연4회 , 02월 28일, 05월 31일, 08월 31일, 11월 30일",
     "publication_schedule": [
       "02-28",
       "05-31",
@@ -31,7 +32,8 @@
       "11-30"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002323&sereSearBean.sereId=SER000010496",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국통합교육과정학회"
   },
   {
     "name": "사고와표현",
@@ -40,42 +42,87 @@
     "kci_sere_id": "SER000003788",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002432&sereSearBean.sereId=SER000003788",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연3회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 04월 30일, 08월 31일, 12월 31일",
+    "official_rule": "발행 간기 연3회 , 04월 30일, 08월 31일, 12월 31일",
     "publication_schedule": [
       "04-30",
       "08-31",
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002432&sereSearBean.sereId=SER000003788",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국사고와표현학회"
   },
   {
     "name": "한국유아교육연구",
-    "publisher": "유아교육연구소",
     "id": "kci-0048",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 2
+    "publisher": "유아교육연구소",
+    "kci_sere_id": "SER000011007",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002817&sereSearBean.sereId=SER000011007",
+    "kci_detail_status": "verified",
+    "official_publisher": "한국교원대학교 유아교육연구소",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002817&sereSearBean.sereId=SER000011007",
+    "publication_schedule_status": "published_rule"
   },
   {
     "name": "The SNU Journal of Education Research",
-    "publisher": "교육종합연구원",
     "id": "kci-0049",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "교육종합연구원",
+    "kci_sere_id": "000009",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003071&sereSearBean.sereId=000009",
+    "kci_detail_status": "verified",
+    "official_publisher": "서울대학교 교육종합연구원",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003071&sereSearBean.sereId=000009",
+    "publication_schedule_status": "published_rule"
   },
   {
     "name": "역량개발학습연구(구 한국HRD연구)",
-    "publisher": "휴먼-AI 인게이지먼트 연구소",
     "id": "kci-0050",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "휴먼-AI 인게이지먼트 연구소",
+    "kci_sere_id": "SER000001418",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005026&sereSearBean.sereId=SER000001418",
+    "kci_detail_status": "verified",
+    "official_publisher": "중앙대학교 휴먼-AI 인게이지먼트 연구소",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005026&sereSearBean.sereId=SER000001418",
+    "publication_schedule_status": "published_rule"
   },
   {
     "name": "학교와 수업 연구",
-    "publisher": "교육연구원",
     "id": "kci-0052",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "교육연구원",
+    "kci_sere_id": "SER000004407",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005246&sereSearBean.sereId=SER000004407",
+    "kci_detail_status": "verified",
+    "official_publisher": "청주교육대학교 교육연구원",
+    "official_rule": "발행 간기 연3회 , 03월 30일, 07월 30일, 11월 30일",
+    "publication_schedule": [
+      "03-30",
+      "07-30",
+      "11-30"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005246&sereSearBean.sereId=SER000004407",
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "http://journal.kci.go.kr/JSST/"
   },
   {
     "name": "글로벌교육연구",
@@ -84,7 +131,7 @@
     "kci_sere_id": "SER000001654",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000007862&sereSearBean.sereId=SER000001654",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연4회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
     "publication_schedule": [
       "03-31",
       "06-30",
@@ -92,7 +139,8 @@
       "12-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000007862&sereSearBean.sereId=SER000001654",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "글로벌교육연구학회"
   },
   {
     "name": "미래교육연구",
@@ -101,7 +149,7 @@
     "kci_sere_id": "SER000003290",
     "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000009501&sereSearBean.sereId=SER000003290",
     "kci_detail_status": "verified",
-    "official_rule": "발행 간기 연4회\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t, 01월 31일, 04월 30일, 07월 31일, 10월 31일",
+    "official_rule": "발행 간기 연4회 , 01월 31일, 04월 30일, 07월 31일, 10월 31일",
     "publication_schedule": [
       "01-31",
       "04-30",
@@ -109,13 +157,26 @@
       "10-31"
     ],
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000009501&sereSearBean.sereId=SER000003290",
-    "publication_schedule_status": "published_rule"
+    "publication_schedule_status": "published_rule",
+    "official_publisher": "한국미래교육학회"
   },
   {
     "name": "경인교육대학교 교육연구원 교육논총",
-    "publisher": "교육연구원",
     "id": "kci-0055",
-    "reason": "검색 결과의 상세페이지에서 학술지명·발행기관 일치 항목 미확인",
-    "candidate_count": 1
+    "publisher": "교육연구원",
+    "kci_sere_id": "SER000004433",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000011391&sereSearBean.sereId=SER000004433",
+    "kci_detail_status": "verified",
+    "official_publisher": "경인교육대학교 교육연구원",
+    "official_rule": "발행 간기 연4회 , 03월 31일, 06월 30일, 09월 30일, 12월 31일",
+    "publication_schedule": [
+      "03-31",
+      "06-30",
+      "09-30",
+      "12-31"
+    ],
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000011391&sereSearBean.sereId=SER000004433",
+    "publication_schedule_status": "published_rule",
+    "kci_journal_homepage": "https://ginue.jams.or.kr/"
   }
 ]

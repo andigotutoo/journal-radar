@@ -111,13 +111,16 @@ def detail(journal, sid, url):
             result.update(publication_schedule=["04-30","08-31","12-31"], publication_schedule_source=source,
                           publication_schedule_status="published_rule")
             result.pop("reason")
+    if result.get("reason") and dates:
+        result.update(publication_schedule=dates, publication_schedule_source=url,
+                      publication_schedule_status="partial_rule", publication_schedule_note=result["reason"])
     return result
 
 
 def apply(journal, result):
     if result.get("kci_journal_homepage") and not journal.get("home_url"):
         journal["home_url"] = result["kci_journal_homepage"]
-    for field in ("kci_journal_homepage","kci_sere_id","kci_url","kci_detail_status","publication_schedule","publication_schedule_source","publication_schedule_status"):
+    for field in ("kci_journal_homepage","kci_sere_id","kci_url","kci_detail_status","publication_schedule","publication_schedule_source","publication_schedule_status","publication_schedule_note"):
         if field in result:
             journal[field] = result[field]
 

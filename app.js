@@ -42,7 +42,7 @@ function renderRanking(){
   const links=make('div','merge-links');
   if(notice&&notice.url)links.append(link(notice.url,'공고 ↗'));
   journalLinks(journal).forEach(a=>links.append(a));
-  if(journal.kci_url){const detail=/[?&](?:sere_id|sereId)=/.test(journal.kci_url);links.append(link(journal.kci_url,detail?'KCI 상세정보 ↗':'KCI 학술지 검색 ↗'));}
+  if(journal.kci_url){const detail=/[?&](?:sere_id|(?:sereSearBean\.)?sereId)=/.test(journal.kci_url);links.append(link(journal.kci_url,detail?'KCI 상세정보 ↗':'KCI 학술지 검색 ↗'));}
   line.append(links);wrap.append(line);
  });
  const expand=el('expand-rankings');expand.hidden=ranked.length<=10;

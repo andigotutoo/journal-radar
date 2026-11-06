@@ -137,3 +137,20 @@ python scripts/test_scan.py
 python scripts/test_ranking.py
 python scripts/test_oai.py
 ```
+
+## KCI 발행 간기 자동 갱신 (2026-11-06 수정)
+
+실행 파일이 누락된 공고 수집 작업을 KCI 발행 간기 갱신 작업으로 교체했습니다.
+매일 09:17 KST 또는 Actions → Paper Radar - Update KCI publication schedules → Run workflow로 실행합니다.
+이미 발행일이 있는 학술지도 다시 확인하며, 원문에서 학술지명과 발행기관이 일치할 때만 날짜를 갱신합니다.
+원문 조회 실패나 정확한 날짜 미제공 시 기존 데이터를 유지하고 `site/data/kci_enrichment_report.json`에 미해결 사유를 기록합니다.
+KCI 식별번호가 없는 학술지는 공개 검색 결과에서 후보를 찾으므로, 검색 결과가 없으면 수동 식별번호 연결이 필요합니다.
+이 작업은 모집 공고·투고 마감일을 갱신하지 않습니다. 기존 공고 수집기 `scripts/scan.py`는 저장소에 없습니다.
+
+```bash
+python scripts/enrich_kci.py
+# 소규모 실연결 점검
+python scripts/enrich_kci.py --known-only --limit 3
+```
+
+자동 수집 커밋만으로는 Pages의 브랜치 기반 빌드가 시작되지 않으므로 같은 작업에서 Pages를 직접 배포합니다. 최초 적용 시 Settings → Pages → Source를 GitHub Actions로 설정해야 합니다.

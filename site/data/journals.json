@@ -3619,7 +3619,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000004221",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000008956&sereSearBean.sereId=SER000004221",
     "home_url": "",
     "submit_url": "",
     "site_url": "",
@@ -3640,7 +3640,7 @@
     "submission_deadline_status": "unknown",
     "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci",
     "kci_sere_id": "SER000004221",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000004221",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000008956&sereSearBean.sereId=SER000004221",
     "publication_schedule_note": "KCI 발행간기 원문 표기. 특정 연도 게재 확정 아님."
   },
   {

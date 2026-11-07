@@ -5147,7 +5147,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001474",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000309&sereSearBean.sereId=001474",
     "home_url": "https://kaem.jams.or.kr/",
     "submit_url": "https://kaem.jams.or.kr/",
     "site_url": "https://kaem.jams.or.kr/",
@@ -5173,7 +5173,7 @@
     "deadline_rule_status": "학회 투고규정 기재, 2027년 확정 모집공고 아님",
     "kci_detail_status": "verified",
     "kci_sere_id": "001474",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001474",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000309&sereSearBean.sereId=001474",
     "publication_schedule_status": "published_rule",
     "submission_deadline_status": "official_rule"
   },

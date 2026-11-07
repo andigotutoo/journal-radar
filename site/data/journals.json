@@ -845,7 +845,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001585",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002744&sereSearBean.sereId=001585",
     "home_url": "http://sei.knu.ac.kr",
     "submit_url": "",
     "site_url": "",
@@ -865,8 +865,9 @@
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "001585",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001585",
-    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002744&sereSearBean.sereId=001585",
+    "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)",
+    "kci_journal_homepage": "http://sei.jams.or.kr"
   },
   {
     "id": "kci-0028",
@@ -942,7 +943,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000311",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000747&sereSearBean.sereId=000311",
     "home_url": "https://www.koreascience.org/",
     "submit_url": "",
     "site_url": "",
@@ -959,14 +960,15 @@
     "language": "한국어",
     "first_publication": "1978",
     "kci_detail_status": "verified",
-    "publication_schedule_status": "published_rule",
+    "publication_schedule_status": "partial_rule",
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "000311",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000311",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000747&sereSearBean.sereId=000311",
     "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)",
     "publication_schedule_raw_warning": "KCI 원문에 04월 31일 기재: 유효하지 않은 날짜여서 누락했으며 정확한 4월 발행일 확인 필요",
-    "publication_schedule_incomplete": true
+    "publication_schedule_incomplete": true,
+    "publication_schedule_note": "KCI 발행 간기에 존재하지 않거나 중복된 날짜 표기: 02월 28일, 04월 31일, 06월 30일, 08월 31일, 10월 30일, 12월 31일"
   },
   {
     "id": "kci-0031",

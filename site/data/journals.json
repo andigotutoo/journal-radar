@@ -588,7 +588,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=002067",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000004974&sereSearBean.sereId=002067",
     "home_url": "https://jrci.jams.or.kr/",
     "submit_url": "https://jrci.jams.or.kr/",
     "site_url": "https://jrci.jams.or.kr/",
@@ -612,7 +612,7 @@
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "002067",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=002067"
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000004974&sereSearBean.sereId=002067"
   },
   {
     "id": "kci-0020",

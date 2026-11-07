@@ -2361,7 +2361,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000012151",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003524&sereSearBean.sereId=SER000012151",
     "home_url": "https://edu-culture.or.kr/",
     "submit_url": "https://edu-culture.or.kr/",
     "site_url": "https://edu-culture.or.kr/",
@@ -2386,7 +2386,7 @@
     "submission_deadline_status": "unknown",
     "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci",
     "kci_sere_id": "SER000012151",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000012151",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000003524&sereSearBean.sereId=SER000012151",
     "publication_schedule_note": "KCI 발행간기 원문 표기. 특정 연도 게재 확정 아님."
   },
   {
@@ -2523,7 +2523,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000867",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000751&sereSearBean.sereId=000867",
     "home_url": "http://www.ksste.or.kr",
     "submit_url": "",
     "site_url": "",
@@ -2543,7 +2543,7 @@
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "000867",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000867",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000751&sereSearBean.sereId=000867",
     "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {

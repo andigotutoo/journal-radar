@@ -1620,7 +1620,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000014943",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005236&sereSearBean.sereId=SER000014943",
     "home_url": "http://eeri.snue.ac.kr",
     "submit_url": "",
     "site_url": "",
@@ -1640,7 +1640,7 @@
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "SER000014943",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000014943",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000005236&sereSearBean.sereId=SER000014943",
     "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {

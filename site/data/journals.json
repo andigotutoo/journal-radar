@@ -8,7 +8,7 @@
     "kci": "등재",
     "kci_if": 5.35,
     "if_year": 2025,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000394",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000912&sereSearBean.sereId=000394",
     "site_url": "https://kset.or.kr/index.php?bo_idx=9&hCode=BOARD",
     "frequency": "연 4회",
     "publication_schedule": [
@@ -31,7 +31,7 @@
     "deadline_rule_status": "학회 공식 원칙·2027 공고 미확인",
     "kci_detail_status": "verified",
     "kci_sere_id": "000394",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000394",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000912&sereSearBean.sereId=000394",
     "publication_schedule_status": "published_rule",
     "submission_deadline_status": "official_rule"
   },
@@ -44,7 +44,7 @@
     "kci": "등재",
     "kci_if": 4.31,
     "if_year": 2025,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000750",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001799&sereSearBean.sereId=000750",
     "site_url": "https://kaeim.jams.or.kr/co/main/jmMain.kci",
     "frequency": "연 6회",
     "publication_schedule": [
@@ -63,7 +63,7 @@
     "deadline_rule_status": "2027 공고 미확인",
     "kci_detail_status": "verified",
     "kci_sere_id": "000750",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=000750",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001799&sereSearBean.sereId=000750",
     "publication_schedule_status": "published_rule",
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown"
@@ -77,7 +77,7 @@
     "kci": "등재",
     "kci_if": 0.16,
     "if_year": 2025,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000009272",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000912&sereSearBean.sereId=SER000009272",
     "site_url": "https://kset.or.kr/index.php?bo_idx=9&hCode=BOARD",
     "frequency": "연 2회",
     "publication_schedule": [
@@ -96,7 +96,7 @@
     "deadline_rule_status": "학회 공식 원칙·2027 공고 미확인",
     "kci_detail_status": "verified",
     "kci_sere_id": "SER000009272",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000009272",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000912&sereSearBean.sereId=SER000009272",
     "publication_schedule_status": "published_rule",
     "submission_deadline_status": "official_rule"
   },
@@ -208,7 +208,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000005150",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000058965&sereSearBean.sereId=SER000005150",
     "home_url": "",
     "submit_url": "",
     "site_url": "",
@@ -228,7 +228,7 @@
     "submission_deadline_status": "unknown",
     "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci",
     "kci_sere_id": "SER000005150",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000005150",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000058965&sereSearBean.sereId=SER000005150",
     "publication_schedule_note": "KCI 발행간기 원문 표기. 특정 연도 게재 확정 아님."
   },
   {
@@ -271,7 +271,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001500",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000612&sereSearBean.sereId=001500",
     "home_url": "http://www.kacsn.net",
     "submit_url": "",
     "site_url": "",
@@ -291,7 +291,7 @@
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "001500",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=001500",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000612&sereSearBean.sereId=001500",
     "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {

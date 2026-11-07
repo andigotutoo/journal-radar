@@ -1331,7 +1331,7 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=002103",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001740&sereSearBean.sereId=002103",
     "home_url": "https://www.koreahrd.or.kr",
     "submit_url": "",
     "site_url": "",
@@ -1351,7 +1351,7 @@
     "submission_deadline_rules": [],
     "submission_deadline_status": "unknown",
     "kci_sere_id": "002103",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=002103",
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001740&sereSearBean.sereId=002103",
     "publication_dates_basis": "KCI 정기 발행간기 (해당 연도 확정 게재 아님)"
   },
   {
@@ -1363,8 +1363,8 @@
     "kci": "등재",
     "kci_if": null,
     "if_year": null,
-    "kci_url": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000004809",
-    "home_url": "",
+    "kci_url": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001881&sereSearBean.sereId=SER000004809",
+    "home_url": "https://www.counselors.or.kr/portal/service/journal_case_intro",
     "submit_url": "",
     "site_url": "",
     "frequency": "연3회",
@@ -1383,8 +1383,9 @@
     "submission_deadline_status": "unknown",
     "kci_lookup_url": "https://www.kci.go.kr/kciportal/po/search/poSereSearch.kci",
     "kci_sere_id": "SER000004809",
-    "publication_schedule_source": "https://www.kci.go.kr/kciportal/landing/journalHome.kci?sere_id=SER000004809",
-    "publication_schedule_note": "KCI 발행간기 원문 표기. 특정 연도 게재 확정 아님."
+    "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001881&sereSearBean.sereId=SER000004809",
+    "publication_schedule_note": "KCI 발행간기 원문 표기. 특정 연도 게재 확정 아님.",
+    "kci_journal_homepage": "https://www.counselors.or.kr/portal/service/journal_case_intro"
   },
   {
     "id": "kci-0044",
@@ -1417,7 +1418,7 @@
     "kci_journal_homepage": "https://www.e-asr.org/",
     "kci_sere_id": "SER000010392",
     "publication_schedule_source": "https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000002180&sereSearBean.sereId=SER000010392",
-    "publication_schedule_note": "4월 발행일 미확인 · KCI 원문에 4월 31일 표기"
+    "publication_schedule_note": "KCI 발행 간기에 존재하지 않거나 중복된 날짜 표기: 01월 31일, 04월 31일, 07월 31일, 10월 31일"
   },
   {
     "id": "kci-0045",

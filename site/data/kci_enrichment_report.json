@@ -80,7 +80,17 @@
     "kci-0077",
     "kci-0078",
     "kci-0079",
-    "kci-0080"
+    "kci-0080",
+    "kci-0081",
+    "kci-0082",
+    "kci-0083",
+    "kci-0084",
+    "kci-0085",
+    "kci-0086",
+    "kci-0087",
+    "kci-0088",
+    "kci-0089",
+    "kci-0090"
   ],
   "unresolved": [
     {
@@ -93,9 +103,9 @@
     }
   ],
   "updated": 0,
-  "checked": 80,
+  "checked": 90,
   "total": 186,
-  "checked_at": "2026-11-09T06:49:36.767276+00:00",
+  "checked_at": "2026-11-09T06:50:03.977937+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

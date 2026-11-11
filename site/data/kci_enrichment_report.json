@@ -50,7 +50,17 @@
     "kci-0047",
     "kci-0048",
     "kci-0049",
-    "kci-0050"
+    "kci-0050",
+    "kci-0051",
+    "kci-0052",
+    "kci-0053",
+    "kci-0054",
+    "kci-0055",
+    "kci-0056",
+    "kci-0057",
+    "kci-0058",
+    "kci-0059",
+    "kci-0060"
   ],
   "unresolved": [
     {
@@ -63,9 +73,9 @@
     }
   ],
   "updated": 0,
-  "checked": 50,
+  "checked": 60,
   "total": 186,
-  "checked_at": "2026-11-11T06:38:31.974538+00:00",
+  "checked_at": "2026-11-11T06:38:57.318678+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

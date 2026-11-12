@@ -130,7 +130,17 @@
     "kci-0127",
     "kci-0128",
     "kci-0129",
-    "kci-0130"
+    "kci-0130",
+    "kci-0131",
+    "kci-0132",
+    "kci-0133",
+    "kci-0134",
+    "kci-0135",
+    "kci-0136",
+    "kci-0137",
+    "kci-0138",
+    "kci-0139",
+    "kci-0140"
   ],
   "unresolved": [
     {
@@ -232,12 +242,16 @@
     {
       "name": "한국체육교육학회지",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "특수교육논총",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 130,
+  "checked": 140,
   "total": 186,
-  "checked_at": "2026-11-12T07:33:15.247907+00:00",
+  "checked_at": "2026-11-12T07:34:20.192745+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

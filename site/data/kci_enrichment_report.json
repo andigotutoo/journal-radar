@@ -100,7 +100,17 @@
     "kci-0097",
     "kci-0098",
     "kci-0099",
-    "kci-0100"
+    "kci-0100",
+    "kci-0101",
+    "kci-0102",
+    "kci-0103",
+    "kci-0104",
+    "kci-0105",
+    "kci-0106",
+    "kci-0107",
+    "kci-0108",
+    "kci-0109",
+    "kci-0110"
   ],
   "unresolved": [
     {
@@ -174,12 +184,16 @@
     {
       "name": "영유아교육.보육연구",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "교사교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 100,
+  "checked": 110,
   "total": 186,
-  "checked_at": "2026-11-12T07:29:59.148526+00:00",
+  "checked_at": "2026-11-12T07:31:03.011227+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

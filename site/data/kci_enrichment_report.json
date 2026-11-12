@@ -50,7 +50,17 @@
     "kci-0047",
     "kci-0048",
     "kci-0049",
-    "kci-0050"
+    "kci-0050",
+    "kci-0051",
+    "kci-0052",
+    "kci-0053",
+    "kci-0054",
+    "kci-0055",
+    "kci-0056",
+    "kci-0057",
+    "kci-0058",
+    "kci-0059",
+    "kci-0060"
   ],
   "unresolved": [
     {
@@ -84,12 +94,20 @@
     {
       "name": "Audiology and Speech Research",
       "reason": "KCI 발행 간기에 존재하지 않거나 중복된 날짜 표기: 01월 31일, 04월 31일, 07월 31일, 10월 31일"
+    },
+    {
+      "name": "글로벌교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "교육컨설팅코칭연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 50,
+  "checked": 60,
   "total": 186,
-  "checked_at": "2026-11-12T07:25:12.828088+00:00",
+  "checked_at": "2026-11-12T07:26:18.655251+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

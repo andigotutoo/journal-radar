@@ -70,7 +70,17 @@
     "kci-0067",
     "kci-0068",
     "kci-0069",
-    "kci-0070"
+    "kci-0070",
+    "kci-0071",
+    "kci-0072",
+    "kci-0073",
+    "kci-0074",
+    "kci-0075",
+    "kci-0076",
+    "kci-0077",
+    "kci-0078",
+    "kci-0079",
+    "kci-0080"
   ],
   "unresolved": [
     {
@@ -112,12 +122,24 @@
     {
       "name": "교육컨설팅코칭연구",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "보완대체의사소통연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "지체·중복·건강장애연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "한국교원교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 70,
+  "checked": 80,
   "total": 186,
-  "checked_at": "2026-11-12T07:27:12.145862+00:00",
+  "checked_at": "2026-11-12T07:28:10.740506+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

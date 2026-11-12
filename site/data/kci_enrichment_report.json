@@ -140,7 +140,17 @@
     "kci-0137",
     "kci-0138",
     "kci-0139",
-    "kci-0140"
+    "kci-0140",
+    "kci-0141",
+    "kci-0142",
+    "kci-0143",
+    "kci-0144",
+    "kci-0145",
+    "kci-0146",
+    "kci-0147",
+    "kci-0148",
+    "kci-0149",
+    "kci-0150"
   ],
   "unresolved": [
     {
@@ -246,12 +256,20 @@
     {
       "name": "특수교육논총",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "환경교육",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "사회과교육",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 140,
+  "checked": 150,
   "total": 186,
-  "checked_at": "2026-11-12T07:34:20.192745+00:00",
+  "checked_at": "2026-11-12T07:35:09.939984+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

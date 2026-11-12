@@ -1,5 +1,5 @@
 {
-  "in_progress": true,
+  "in_progress": false,
   "done_ids": [
     "jet",
     "kaeim",
@@ -180,7 +180,13 @@
     "kci-0177",
     "kci-0178",
     "kci-0179",
-    "kci-0180"
+    "kci-0180",
+    "kci-0181",
+    "kci-0182",
+    "kci-0183",
+    "kci-0184",
+    "kci-0185",
+    "kci-0186"
   ],
   "unresolved": [
     {
@@ -297,9 +303,9 @@
     }
   ],
   "updated": 0,
-  "checked": 180,
+  "checked": 186,
   "total": 186,
-  "checked_at": "2026-11-12T07:36:36.703179+00:00",
+  "checked_at": "2026-11-12T07:36:51.829144+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

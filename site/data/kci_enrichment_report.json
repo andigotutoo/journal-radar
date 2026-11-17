@@ -40,7 +40,17 @@
     "kci-0037",
     "kci-0038",
     "kci-0039",
-    "kci-0040"
+    "kci-0040",
+    "kci-0041",
+    "kci-0042",
+    "kci-0043",
+    "kci-0044",
+    "kci-0045",
+    "kci-0046",
+    "kci-0047",
+    "kci-0048",
+    "kci-0049",
+    "kci-0050"
   ],
   "unresolved": [
     {
@@ -50,12 +60,28 @@
     {
       "name": "Communication Sciences and Disorders",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "한국학교수학회논문집",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "HRD연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "Audiology and Speech Research",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "한국유아교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 40,
+  "checked": 50,
   "total": 186,
-  "checked_at": "2026-11-17T08:06:06.990744+00:00",
+  "checked_at": "2026-11-17T08:07:09.982067+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

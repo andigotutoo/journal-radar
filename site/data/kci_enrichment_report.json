@@ -60,7 +60,17 @@
     "kci-0057",
     "kci-0058",
     "kci-0059",
-    "kci-0060"
+    "kci-0060",
+    "kci-0061",
+    "kci-0062",
+    "kci-0063",
+    "kci-0064",
+    "kci-0065",
+    "kci-0066",
+    "kci-0067",
+    "kci-0068",
+    "kci-0069",
+    "kci-0070"
   ],
   "unresolved": [
     {
@@ -74,12 +84,20 @@
     {
       "name": "역량개발학습연구(구 한국HRD연구)",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "미술교육연구논총",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "상담학연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 60,
+  "checked": 70,
   "total": 186,
-  "checked_at": "2026-11-22T07:04:17.675735+00:00",
+  "checked_at": "2026-11-22T07:05:25.329537+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

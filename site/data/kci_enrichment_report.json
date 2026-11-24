@@ -10,7 +10,17 @@
     "kci-0007",
     "kci-0008",
     "kci-0009",
-    "kci-0010"
+    "kci-0010",
+    "kci-0011",
+    "kci-0012",
+    "kci-0013",
+    "kci-0014",
+    "kci-0015",
+    "kci-0016",
+    "kci-0017",
+    "kci-0018",
+    "kci-0019",
+    "kci-0020"
   ],
   "unresolved": [
     {
@@ -20,12 +30,16 @@
     {
       "name": "교육학연구",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "아시아교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 10,
+  "checked": 20,
   "total": 186,
-  "checked_at": "2026-11-24T10:01:20.448559+00:00",
+  "checked_at": "2026-11-24T10:02:16.386746+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

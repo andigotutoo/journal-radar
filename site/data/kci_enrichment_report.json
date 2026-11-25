@@ -130,7 +130,17 @@
     "kci-0127",
     "kci-0128",
     "kci-0129",
-    "kci-0130"
+    "kci-0130",
+    "kci-0131",
+    "kci-0132",
+    "kci-0133",
+    "kci-0134",
+    "kci-0135",
+    "kci-0136",
+    "kci-0137",
+    "kci-0138",
+    "kci-0139",
+    "kci-0140"
   ],
   "unresolved": [
     {
@@ -144,12 +154,20 @@
     {
       "name": "컴퓨터교육학회 논문지",
       "reason": "KCI 상세페이지가 정확한 월·일을 제공하지 않음: 발행 간기 부정기"
+    },
+    {
+      "name": "영재와 영재교육",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "과학영재교육",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 130,
+  "checked": 140,
   "total": 186,
-  "checked_at": "2026-11-25T08:52:10.561204+00:00",
+  "checked_at": "2026-11-25T08:53:10.010491+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

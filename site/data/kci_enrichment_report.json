@@ -170,7 +170,17 @@
     "kci-0167",
     "kci-0168",
     "kci-0169",
-    "kci-0170"
+    "kci-0170",
+    "kci-0171",
+    "kci-0172",
+    "kci-0173",
+    "kci-0174",
+    "kci-0175",
+    "kci-0176",
+    "kci-0177",
+    "kci-0178",
+    "kci-0179",
+    "kci-0180"
   ],
   "unresolved": [
     {
@@ -200,12 +210,24 @@
     {
       "name": "교육방법연구",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "특수교육교과교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "KEDI Journal of Educational Policy",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "초등교육연구논총",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 170,
+  "checked": 180,
   "total": 186,
-  "checked_at": "2026-11-25T08:56:41.846077+00:00",
+  "checked_at": "2026-11-25T08:57:55.979659+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

@@ -50,7 +50,17 @@
     "kci-0047",
     "kci-0048",
     "kci-0049",
-    "kci-0050"
+    "kci-0050",
+    "kci-0051",
+    "kci-0052",
+    "kci-0053",
+    "kci-0054",
+    "kci-0055",
+    "kci-0056",
+    "kci-0057",
+    "kci-0058",
+    "kci-0059",
+    "kci-0060"
   ],
   "unresolved": [
     {
@@ -84,12 +94,16 @@
     {
       "name": "사고와표현",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "미래교육연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 50,
+  "checked": 60,
   "total": 186,
-  "checked_at": "2026-11-26T08:35:19.872038+00:00",
+  "checked_at": "2026-11-26T08:36:17.479018+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

@@ -60,7 +60,17 @@
     "kci-0057",
     "kci-0058",
     "kci-0059",
-    "kci-0060"
+    "kci-0060",
+    "kci-0061",
+    "kci-0062",
+    "kci-0063",
+    "kci-0064",
+    "kci-0065",
+    "kci-0066",
+    "kci-0067",
+    "kci-0068",
+    "kci-0069",
+    "kci-0070"
   ],
   "unresolved": [
     {
@@ -98,12 +108,16 @@
     {
       "name": "미래교육연구",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "미래유아교육학회지",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 60,
+  "checked": 70,
   "total": 186,
-  "checked_at": "2026-11-26T08:36:17.479018+00:00",
+  "checked_at": "2026-11-26T08:37:01.175358+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }

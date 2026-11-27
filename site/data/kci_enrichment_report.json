@@ -170,7 +170,17 @@
     "kci-0167",
     "kci-0168",
     "kci-0169",
-    "kci-0170"
+    "kci-0170",
+    "kci-0171",
+    "kci-0172",
+    "kci-0173",
+    "kci-0174",
+    "kci-0175",
+    "kci-0176",
+    "kci-0177",
+    "kci-0178",
+    "kci-0179",
+    "kci-0180"
   ],
   "unresolved": [
     {
@@ -280,12 +290,28 @@
     {
       "name": "영재교육연구",
       "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "교육종합연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "제주대학교 교육과학연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "초등교육연구논총",
+      "reason": "KCI 연결 오류: ReadTimeout"
+    },
+    {
+      "name": "사회과수업연구",
+      "reason": "KCI 연결 오류: ReadTimeout"
     }
   ],
   "updated": 0,
-  "checked": 170,
+  "checked": 180,
   "total": 186,
-  "checked_at": "2026-11-27T09:00:02.965150+00:00",
+  "checked_at": "2026-11-27T09:01:17.790591+00:00",
   "verified_dates": 184,
   "verified_kci_id": 186
 }
